@@ -1,0 +1,36 @@
+<!-- index.htmlのサンプル -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>スノーボード比較サイト</title>
+  <style>
+    body { display: flex; font-family: Arial, sans-serif; margin: 0; height: 100vh; }
+    #leftPanel { width: 300px; border-right: 1px solid #ccc; padding: 10px; overflow-y: auto; }
+    #rightPanel { flex: 1; padding: 10px; overflow-x: auto; }
+    h2 { margin-top: 0; }
+    ul { list-style: none; padding-left: 0; }
+    li { cursor: pointer; margin: 4px 0; }
+    li:hover { background: #eee; }
+    .selected { background: #cce5ff; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #999; padding: 6px 8px; text-align: center; }
+  </style>
+</head>
+<body>
+  <div id="leftPanel">
+    <h2>メーカー</h2>
+    <ul id="brandList"></ul>
+    <h2>モデル</h2>
+    <ul id="modelList"></ul>
+    <h2>サイズ</h2>
+    <ul id="sizeList"></ul>
+  </div>
+  <div id="rightPanel">
+    <h2>比較リスト</h2>
+    <div id="compareArea">サイズを選択してください</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

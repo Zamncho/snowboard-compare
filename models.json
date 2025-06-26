@@ -1,0 +1,34 @@
+// models.jsonのサンプル（実際は拡張してください）
+[
+  {
+    "brand": "Gentemstick",
+    "models": [
+      {
+        "name": "MANTARAY 142",
+        "sizes": [
+          {
+            "length_mm": 1419.5,
+            "running_length_mm": 850,
+            "effective_edge_mm": 1039.5,
+            "nose_width_mm": 288,
+            "waist_width_mm": 244,
+            "tail_width_mm": 270.6
+          }
+        ]
+      },
+      {
+        "name": "FLY FISK 164",
+        "sizes": [
+          {
+            "length_mm": 1640,
+            "running_length_mm": 1033,
+            "effective_edge_mm": 1133,
+            "nose_width_mm": 344,
+            "waist_width_mm": 287,
+            "tail_width_mm": 302
+          }
+        ]
+      }
+    ]
+  }
+]
