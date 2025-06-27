@@ -1,4 +1,6 @@
 
+// 改良版 script.js - サイズ選択・横並び比較対応
+
 let modelsData = [];
 let selectedBrand = null;
 let selectedModel = null;
@@ -10,6 +12,7 @@ const modelSelect = document.getElementById('modelSelect');
 const yearSelect = document.getElementById('yearSelect');
 const sizeSelect = document.getElementById('sizeSelect');
 const resultArea = document.getElementById('resultArea');
+const compareArea = document.getElementById('compareArea');
 
 fetch('models.json')
   .then(res => res.json())
@@ -99,5 +102,15 @@ function showResult() {
   const modelObj = brandObj.models.find(m => m.name === selectedModel);
   const versionObj = modelObj.versions.find(v => v.year === selectedYear);
   const sizeObj = versionObj.sizes.find(s => (s.length_cm || s.length_mm).toString() === selectedSize);
+
   resultArea.innerHTML = `<pre>${JSON.stringify(sizeObj, null, 2)}</pre>`;
+
+  const div = document.createElement('div');
+  div.style.border = '1px solid #ccc';
+  div.style.margin = '5px';
+  div.style.padding = '5px';
+  div.style.display = 'inline-block';
+  div.style.verticalAlign = 'top';
+  div.innerHTML = `<strong>${selectedBrand} ${selectedModel} ${selectedYear} ${selectedSize}cm</strong><br><pre>${JSON.stringify(sizeObj, null, 2)}</pre>`;
+  compareArea.appendChild(div);
 }
