@@ -1,28 +1,5 @@
 [
   {
-    "brand": "Gentemstick",
-    "models": [
-      {
-        "name": "MANTARAY",
-        "versions": [
-          {
-            "year": "25-26",
-            "sizes": [
-              {
-                "length_mm": 1419.5,
-                "running_length_mm": 850,
-                "effective_edge_mm": 1039.5,
-                "nose_width_mm": 288,
-                "waist_width_mm": 244,
-                "tail_width_mm": 270.6
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "brand": "KORUA",
     "models": [
       {
@@ -31,6 +8,21 @@
           {
             "year": "24-25",
             "sizes": [
+              {
+                "length_cm": 153,
+                "effective_edge_mm": 1120,
+                "contact_length_mm": 970,
+                "nose_width_mm": 291,
+                "waist_width_mm": 255,
+                "tail_width_mm": 291,
+                "sidecut_radius_m": 8.1,
+                "setback_mm": 10,
+                "taper_mm": 0,
+                "stance_cm": 55,
+                "stance_range_cm": "49 - 61",
+                "weight_kg": 2.7,
+                "switch_riding": "Hell Yeah"
+              },
               {
                 "length_cm": 157,
                 "effective_edge_mm": 1170,
@@ -42,9 +34,449 @@
                 "setback_mm": 10,
                 "taper_mm": 0,
                 "stance_cm": 55,
-                "stance_range_cm": "50 - 64",
-                "weight_kg": 2.4,
+                "stance_range_cm": "49 - 61",
+                "weight_kg": 2.8,
+                "switch_riding": "Hell Yeah"
+              },
+              {
+                "length_cm": 161,
+                "effective_edge_mm": 1210,
+                "contact_length_mm": 1050,
+                "nose_width_mm": 309,
+                "waist_width_mm": 268,
+                "tail_width_mm": 309,
+                "sidecut_radius_m": 8.3,
+                "setback_mm": 10,
+                "taper_mm": 0,
+                "stance_cm": 56,
+                "stance_range_cm": "50 - 62",
+                "weight_kg": 3.0,
+                "switch_riding": "Hell Yeah"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Transition Finder",
+        "versions": [
+          {
+            "year": "24-25",
+            "sizes": [
+              {
+                "length_cm": 150,
+                "effective_edge_mm": 1130,
+                "contact_length_mm": 960,
+                "nose_width_mm": 294,
+                "waist_width_mm": 252,
+                "tail_width_mm": 278,
+                "sidecut_radius_m": 8.1,
+                "setback_mm": 20,
+                "taper_mm": 16,
+                "stance_cm": 54,
+                "stance_range_cm": "48-60",
+                "weight_kg": 2.7,
                 "switch_riding": "No Problem"
+              },
+              {
+                "length_cm": 154,
+                "effective_edge_mm": 1170,
+                "contact_length_mm": 1000,
+                "nose_width_mm": 306,
+                "waist_width_mm": 260,
+                "tail_width_mm": 288,
+                "sidecut_radius_m": 8.1,
+                "setback_mm": 20,
+                "taper_mm": 18,
+                "stance_cm": 55,
+                "stance_range_cm": "49-61",
+                "weight_kg": 2.8,
+                "switch_riding": "No Problem"
+              },
+              {
+                "length_cm": 157,
+                "effective_edge_mm": 1200,
+                "contact_length_mm": 1020,
+                "nose_width_mm": 316,
+                "waist_width_mm": 268,
+                "tail_width_mm": 298,
+                "sidecut_radius_m": 8.2,
+                "setback_mm": 20,
+                "taper_mm": 18,
+                "stance_cm": 56,
+                "stance_range_cm": "50-62",
+                "weight_kg": 2.9,
+                "switch_riding": "No Problem"
+              },
+              {
+                "length_cm": 160,
+                "effective_edge_mm": 1220,
+                "contact_length_mm": 1040,
+                "nose_width_mm": 327,
+                "waist_width_mm": 278,
+                "tail_width_mm": 309,
+                "sidecut_radius_m": 8.2,
+                "setback_mm": 20,
+                "taper_mm": 18,
+                "stance_cm": 56,
+                "stance_range_cm": "50-62",
+                "weight_kg": 3.1,
+                "switch_riding": "No Problem"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Caf\u00e9 Racer",
+        "versions": [
+          {
+            "year": "24-25",
+            "sizes": [
+              {
+                "length_cm": 150,
+                "effective_edge_mm": 1100,
+                "contact_length_mm": 950,
+                "nose_width_mm": 302,
+                "waist_width_mm": 254,
+                "tail_width_mm": 276,
+                "sidecut_radius_m": 7.9,
+                "setback_mm": 35,
+                "taper_mm": 26,
+                "stance_cm": 53,
+                "stance_range_cm": "47-59",
+                "weight_kg": 2.6,
+                "switch_riding": "Doable"
+              },
+              {
+                "length_cm": 156,
+                "effective_edge_mm": 1160,
+                "contact_length_mm": 1010,
+                "nose_width_mm": 311,
+                "waist_width_mm": 260,
+                "tail_width_mm": 284,
+                "sidecut_radius_m": 8.0,
+                "setback_mm": 35,
+                "taper_mm": 27,
+                "stance_cm": 54,
+                "stance_range_cm": "48-60",
+                "weight_kg": 2.7,
+                "switch_riding": "Doable"
+              },
+              {
+                "length_cm": 159,
+                "effective_edge_mm": 1200,
+                "contact_length_mm": 1050,
+                "nose_width_mm": 322,
+                "waist_width_mm": 269,
+                "tail_width_mm": 294,
+                "sidecut_radius_m": 8.2,
+                "setback_mm": 35,
+                "taper_mm": 28,
+                "stance_cm": 55,
+                "stance_range_cm": "49-61",
+                "weight_kg": 2.8,
+                "switch_riding": "Doable"
+              },
+              {
+                "length_cm": 164,
+                "effective_edge_mm": 1230,
+                "contact_length_mm": 1090,
+                "nose_width_mm": 330,
+                "waist_width_mm": 276,
+                "tail_width_mm": 302,
+                "sidecut_radius_m": 8.5,
+                "setback_mm": 35,
+                "taper_mm": 28,
+                "stance_cm": 55,
+                "stance_range_cm": "49-61",
+                "weight_kg": 3.1,
+                "switch_riding": "Doable"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dart",
+        "versions": [
+          {
+            "year": "24-25",
+            "sizes": [
+              {
+                "length_cm": 140,
+                "effective_edge_mm": 1050,
+                "contact_length_mm": 930,
+                "nose_width_mm": 301,
+                "waist_width_mm": 252,
+                "tail_width_mm": 273,
+                "sidecut_radius_m": 8.1,
+                "setback_mm": 20,
+                "taper_mm": 18,
+                "stance_cm": 54,
+                "stance_range_cm": "49-63",
+                "weight_kg": 2.5,
+                "switch_riding": "Challenging"
+              },
+              {
+                "length_cm": 152,
+                "effective_edge_mm": 1160,
+                "contact_length_mm": 1010,
+                "nose_width_mm": 311,
+                "waist_width_mm": 260,
+                "tail_width_mm": 284,
+                "sidecut_radius_m": 8.1,
+                "setback_mm": 40,
+                "taper_mm": 27,
+                "stance_cm": 52,
+                "stance_range_cm": "48-56",
+                "weight_kg": 2.7,
+                "switch_riding": "Challenging"
+              },
+              {
+                "length_cm": 156,
+                "effective_edge_mm": 1200,
+                "contact_length_mm": 1050,
+                "nose_width_mm": 322,
+                "waist_width_mm": 269,
+                "tail_width_mm": 294,
+                "sidecut_radius_m": 8.2,
+                "setback_mm": 40,
+                "taper_mm": 28,
+                "stance_cm": 53,
+                "stance_range_cm": "49-57",
+                "weight_kg": 2.9,
+                "switch_riding": "Challenging"
+              },
+              {
+                "length_cm": 160,
+                "effective_edge_mm": 1230,
+                "contact_length_mm": 1090,
+                "nose_width_mm": 328,
+                "waist_width_mm": 274,
+                "tail_width_mm": 300,
+                "sidecut_radius_m": 8.3,
+                "setback_mm": 40,
+                "taper_mm": 28,
+                "stance_cm": 53,
+                "stance_range_cm": "49-57",
+                "weight_kg": 3.0,
+                "switch_riding": "Challenging"
+              },
+              {
+                "length_cm": 164,
+                "effective_edge_mm": 1270,
+                "contact_length_mm": 1130,
+                "nose_width_mm": 336,
+                "waist_width_mm": 280,
+                "tail_width_mm": 308,
+                "sidecut_radius_m": 8.4,
+                "setback_mm": 40,
+                "taper_mm": 28,
+                "stance_cm": 53,
+                "stance_range_cm": "49-57",
+                "weight_kg": 3.2,
+                "switch_riding": "Challenging"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pencil",
+        "versions": [
+          {
+            "year": "24-25",
+            "sizes": [
+              {
+                "length_cm": 138,
+                "effective_edge_mm": 980,
+                "contact_length_mm": 840,
+                "nose_width_mm": 280,
+                "waist_width_mm": 240,
+                "tail_width_mm": 256,
+                "sidecut_radius_m": 7.8,
+                "setback_mm": 35,
+                "taper_mm": 24,
+                "stance_cm": 46,
+                "stance_range_cm": "40-52",
+                "weight_kg": 2.3,
+                "switch_riding": "Doable"
+              },
+              {
+                "length_cm": 147,
+                "effective_edge_mm": 1060,
+                "contact_length_mm": 920,
+                "nose_width_mm": 298,
+                "waist_width_mm": 252,
+                "tail_width_mm": 272,
+                "sidecut_radius_m": 7.9,
+                "setback_mm": 35,
+                "taper_mm": 26,
+                "stance_cm": 53,
+                "stance_range_cm": "47-59",
+                "weight_kg": 2.6,
+                "switch_riding": "Doable"
+              },
+              {
+                "length_cm": 153,
+                "effective_edge_mm": 1100,
+                "contact_length_mm": 950,
+                "nose_width_mm": 302,
+                "waist_width_mm": 254,
+                "tail_width_mm": 276,
+                "sidecut_radius_m": 8.0,
+                "setback_mm": 35,
+                "taper_mm": 27,
+                "stance_cm": 53,
+                "stance_range_cm": "47-59",
+                "weight_kg": 2.7,
+                "switch_riding": "Doable"
+              },
+              {
+                "length_cm": 159,
+                "effective_edge_mm": 1160,
+                "contact_length_mm": 1030,
+                "nose_width_mm": 311,
+                "waist_width_mm": 260,
+                "tail_width_mm": 284,
+                "sidecut_radius_m": 8.1,
+                "setback_mm": 35,
+                "taper_mm": 28,
+                "stance_cm": 55,
+                "stance_range_cm": "49-61",
+                "weight_kg": 2.8,
+                "switch_riding": "Doable"
+              },
+              {
+                "length_cm": 164,
+                "effective_edge_mm": 1200,
+                "contact_length_mm": 1060,
+                "nose_width_mm": 322,
+                "waist_width_mm": 269,
+                "tail_width_mm": 294,
+                "sidecut_radius_m": 8.2,
+                "setback_mm": 35,
+                "taper_mm": 28,
+                "stance_cm": 55,
+                "stance_range_cm": "49-61",
+                "weight_kg": 3.0,
+                "switch_riding": "Doable"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pin Tonic",
+        "versions": [
+          {
+            "year": "24-25",
+            "sizes": [
+              {
+                "length_cm": 164,
+                "effective_edge_mm": 1200,
+                "contact_length_mm": 1060,
+                "nose_width_mm": 324,
+                "waist_width_mm": 269,
+                "tail_width_mm": 293,
+                "sidecut_radius_m": 8.2,
+                "setback_mm": 20,
+                "taper_mm": 31,
+                "stance_cm": 55,
+                "stance_range_cm": "50-64",
+                "weight_kg": 2.9,
+                "switch_riding": "No Problem"
+              },
+              {
+                "length_cm": 172,
+                "effective_edge_mm": 1260,
+                "contact_length_mm": 1120,
+                "nose_width_mm": 332,
+                "waist_width_mm": 276,
+                "tail_width_mm": 303,
+                "sidecut_radius_m": 8.6,
+                "setback_mm": 20,
+                "taper_mm": 28,
+                "stance_cm": 55,
+                "stance_range_cm": "50-64",
+                "weight_kg": 3.1,
+                "switch_riding": "No Problem"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pocket Rocket",
+        "versions": [
+          {
+            "year": "24-25",
+            "sizes": [
+              {
+                "length_cm": 129,
+                "effective_edge_mm": 950,
+                "contact_length_mm": null,
+                "nose_width_mm": 359,
+                "waist_width_mm": 302,
+                "tail_width_mm": 296,
+                "sidecut_radius_m": 8.2,
+                "setback_mm": 20,
+                "taper_mm": 44,
+                "stance_cm": 54,
+                "stance_range_cm": "44-58",
+                "weight_kg": 2.5,
+                "switch_riding": "Challenging"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "\u00dcberegg",
+        "versions": [
+          {
+            "year": "24-25",
+            "sizes": [
+              {
+                "length_cm": 157,
+                "effective_edge_mm": 1030,
+                "contact_length_mm": 1030,
+                "nose_width_mm": 352,
+                "waist_width_mm": 290,
+                "tail_width_mm": 286,
+                "sidecut_radius_m": 8.8,
+                "setback_mm": 60,
+                "taper_mm": 66,
+                "stance_cm": 54,
+                "stance_range_cm": "42-70",
+                "weight_kg": 2.7,
+                "switch_riding": "No Problem"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Apollo 10",
+        "versions": [
+          {
+            "year": "24-25",
+            "sizes": [
+              {
+                "length_cm": 162,
+                "effective_edge_mm": 1190,
+                "contact_length_mm": 1050,
+                "nose_width_mm": 323,
+                "waist_width_mm": 269,
+                "tail_width_mm": 294,
+                "sidecut_radius_m": 8.2,
+                "setback_mm": 30,
+                "taper_mm": 29,
+                "stance_cm": 53,
+                "stance_range_cm": "47-59",
+                "weight_kg": 2.8,
+                "switch_riding": "Doable"
               }
             ]
           }
