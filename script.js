@@ -1,121 +1,108 @@
-// script.js のサンプル
-let data = [];
+// 改良版 script.js - サイズ選択・比較対応
+
+// グローバル保持
+let modelsData = [];
 let selectedBrand = null;
 let selectedModel = null;
-let compareList = [];
+let selectedYear = null;
+let selectedSize = null;
 
-async function loadData() {
-  const res = await fetch('models.json');
-  data = await res.json();
-  renderBrands();
-}
+// DOM取得
+const brandSelect = document.getElementById('brandSelect');
+const modelSelect = document.getElementById('modelSelect');
+const yearSelect = document.getElementById('yearSelect');
+const sizeSelect = document.getElementById('sizeSelect');
+const resultArea = document.getElementById('resultArea');
 
-function renderBrands() {
-  const ul = document.getElementById('brandList');
-  ul.innerHTML = '';
-  data.forEach(brand => {
-    const li = document.createElement('li');
-    li.textContent = brand.brand;
-    li.onclick = () => {
-      selectedBrand = brand;
-      selectedModel = null;
-      renderBrands();
-      renderModels();
-      renderSizes();
-    };
-    if (selectedBrand && selectedBrand.brand === brand.brand) {
-      li.classList.add('selected');
-    }
-    ul.appendChild(li);
+// JSON読込
+fetch('models.json')
+  .then(res => res.json())
+  .then(data => {
+    modelsData = data;
+    populateBrandSelect();
+  });
+
+function populateBrandSelect() {
+  brandSelect.innerHTML = '<option value="">ブランド選択</option>';
+  modelsData.forEach(b => {
+    const opt = document.createElement('option');
+    opt.value = b.brand;
+    opt.textContent = b.brand;
+    brandSelect.appendChild(opt);
   });
 }
 
-function renderModels() {
-  const ul = document.getElementById('modelList');
-  ul.innerHTML = '';
+brandSelect.addEventListener('change', () => {
+  selectedBrand = brandSelect.value;
+  selectedModel = null;
+  selectedYear = null;
+  selectedSize = null;
+  populateModelSelect();
+});
+
+function populateModelSelect() {
+  modelSelect.innerHTML = '<option value="">モデル選択</option>';
   if (!selectedBrand) return;
-  selectedBrand.models.forEach(model => {
-    const li = document.createElement('li');
-    li.textContent = model.name;
-    li.onclick = () => {
-      selectedModel = model;
-      renderModels();
-      renderSizes();
-    };
-    if (selectedModel && selectedModel.name === model.name) {
-      li.classList.add('selected');
-    }
-    ul.appendChild(li);
+  const brandObj = modelsData.find(b => b.brand === selectedBrand);
+  brandObj.models.forEach(m => {
+    const opt = document.createElement('option');
+    opt.value = m.name;
+    opt.textContent = m.name;
+    modelSelect.appendChild(opt);
   });
 }
 
-function renderSizes() {
-  const ul = document.getElementById('sizeList');
-  ul.innerHTML = '';
-  if (!selectedModel) return;
-  selectedModel.sizes.forEach((size, idx) => {
-    const li = document.createElement('li');
-    li.textContent = `${size.length_mm} mm`;
-    const checkbox = document.createElement('input');
-    checkbox.type = 'checkbox';
-    checkbox.style.marginRight = '8px';
-    checkbox.onchange = (e) => {
-      if (e.target.checked) {
-        addToCompare(selectedBrand.brand, selectedModel.name, size);
-      } else {
-        removeFromCompare(selectedBrand.brand, selectedModel.name, size);
-      }
-    };
-    li.prepend(checkbox);
-    ul.appendChild(li);
+modelSelect.addEventListener('change', () => {
+  selectedModel = modelSelect.value;
+  selectedYear = null;
+  selectedSize = null;
+  populateYearSelect();
+});
+
+function populateYearSelect() {
+  yearSelect.innerHTML = '<option value="">年式選択</option>';
+  if (!selectedBrand || !selectedModel) return;
+  const brandObj = modelsData.find(b => b.brand === selectedBrand);
+  const modelObj = brandObj.models.find(m => m.name === selectedModel);
+  modelObj.versions.forEach(v => {
+    const opt = document.createElement('option');
+    opt.value = v.year;
+    opt.textContent = v.year;
+    yearSelect.appendChild(opt);
   });
 }
 
-function addToCompare(brand, model, size) {
-  // 重複チェック
-  if (compareList.some(item => item.brand === brand && item.model === model && item.size.length_mm === size.length_mm)) return;
-  compareList.push({ brand, model, size });
-  renderCompare();
-}
+yearSelect.addEventListener('change', () => {
+  selectedYear = yearSelect.value;
+  selectedSize = null;
+  populateSizeSelect();
+});
 
-function removeFromCompare(brand, model, size) {
-  compareList = compareList.filter(item => !(item.brand === brand && item.model === model && item.size.length_mm === size.length_mm));
-  renderCompare();
-}
-
-function renderCompare() {
-  const area = document.getElementById('compareArea');
-  if (compareList.length === 0) {
-    area.textContent = 'サイズを選択してください';
-    return;
-  }
-  // 比較テーブル作成
-  let html = '<table><thead><tr><th>項目</th>';
-  compareList.forEach(item => {
-    html += `<th>${item.brand} - ${item.model} - ${item.size.length_mm}mm</th>`;
+function populateSizeSelect() {
+  sizeSelect.innerHTML = '<option value="">サイズ選択</option>';
+  if (!selectedBrand || !selectedModel || !selectedYear) return;
+  const brandObj = modelsData.find(b => b.brand === selectedBrand);
+  const modelObj = brandObj.models.find(m => m.name === selectedModel);
+  const versionObj = modelObj.versions.find(v => v.year === selectedYear);
+  versionObj.sizes.forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s.length_cm || s.length_mm;
+    opt.textContent = `${s.length_cm || s.length_mm}cm`;
+    sizeSelect.appendChild(opt);
   });
-  html += '</tr></thead><tbody>';
-
-  const keys = ['length_mm','running_length_mm','effective_edge_mm','nose_width_mm','waist_width_mm','tail_width_mm'];
-  const labels = {
-    length_mm: '長さ (mm)',
-    running_length_mm: 'ランニング長 (mm)',
-    effective_edge_mm: '有効エッジ (mm)',
-    nose_width_mm: 'ノーズ幅 (mm)',
-    waist_width_mm: 'ウエスト幅 (mm)',
-    tail_width_mm: 'テール幅 (mm)'
-  };
-
-  keys.forEach(key => {
-    html += `<tr><td>${labels[key]}</td>`;
-    compareList.forEach(item => {
-      html += `<td>${item.size[key]}</td>`;
-    });
-    html += '</tr>';
-  });
-
-  html += '</tbody></table>';
-  area.innerHTML = html;
 }
 
-window.onload = loadData;
+sizeSelect.addEventListener('change', () => {
+  selectedSize = sizeSelect.value;
+  showResult();
+});
+
+function showResult() {
+  if (!selectedBrand || !selectedModel || !selectedYear || !selectedSize) return;
+  const brandObj = modelsData.find(b => b.brand === selectedBrand);
+  const modelObj = brandObj.models.find(m => m.name === selectedModel);
+  const versionObj = modelObj.versions.find(v => v.year === selectedYear);
+  const sizeObj = versionObj.sizes.find(s => (s.length_cm || s.length_mm).toString() === selectedSize);
+
+  resultArea.innerHTML = `<pre>${JSON.stringify(sizeObj, null, 2)}</pre>`;
+}
