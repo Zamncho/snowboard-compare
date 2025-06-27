@@ -1,7 +1,55 @@
 [
   {
+    "brand": "Gentemstick",
+    "models": [
+      {
+        "name": "MANTARAY",
+        "versions": [
+          {
+            "year": "25-26",
+            "sizes": [
+              {
+                "length_mm": 1419.5,
+                "running_length_mm": 850,
+                "effective_edge_mm": 1039.5,
+                "nose_width_mm": 288,
+                "waist_width_mm": 244,
+                "tail_width_mm": 270.6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "brand": "KORUA",
     "models": [
+      {
+        "name": "OTTO",
+        "versions": [
+          {
+            "year": "24-25",
+            "sizes": [
+              {
+                "length_cm": 157,
+                "effective_edge_mm": 1170,
+                "contact_length_mm": 1010,
+                "nose_width_mm": 298,
+                "waist_width_mm": 260,
+                "tail_width_mm": 298,
+                "sidecut_radius_m": 8.2,
+                "setback_mm": 10,
+                "taper_mm": 0,
+                "stance_cm": 55,
+                "stance_range_cm": "50 - 64",
+                "weight_kg": 2.4,
+                "switch_riding": "No Problem"
+              }
+            ]
+          }
+        ]
+      },
       {
         "name": "Tranny Finder Plus",
         "versions": [
@@ -21,19 +69,7 @@
                 "stance_cm": 55,
                 "stance_range_cm": "50-64",
                 "weight_kg": 2.5,
-                "switch_riding": "No Problem",
-                "flex": 8,
-                "float": 7,
-                "topsheet": "Brushed Polyamid Triple Compound",
-                "fiberglass": "Carbon Multiaxial",
-                "core": "Paulownia/Poplar Light",
-                "base_material": "Nano Highspeed Sintered",
-                "base_construction": "Classic",
-                "finish": "Beltgrind",
-                "edges": "Metal",
-                "shape": "Directional",
-                "rider_weight_kg": "60-90",
-                "boot_size_eu": "up to ~ 46"
+                "switch_riding": "No Problem"
               }
             ]
           }
