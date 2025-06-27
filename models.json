@@ -1,4 +1,3 @@
-// models.jsonのサンプル（実際は拡張してください）
 [
   {
     "brand": "Gentemstick",
@@ -26,6 +25,32 @@
             "nose_width_mm": 344,
             "waist_width_mm": 287,
             "tail_width_mm": 302
+          }
+        ]
+      },
+      {
+        "name": "THE CHASER 157",
+        "sizes": [
+          {
+            "length_mm": 1570,
+            "running_length_mm": 980,
+            "effective_edge_mm": 1112,
+            "nose_width_mm": 304,
+            "waist_width_mm": 256,
+            "tail_width_mm": 289
+          }
+        ]
+      },
+      {
+        "name": "INDY STICK 161",
+        "sizes": [
+          {
+            "length_mm": 1610,
+            "running_length_mm": 1020,
+            "effective_edge_mm": 1175,
+            "nose_width_mm": 300,
+            "waist_width_mm": 255,
+            "tail_width_mm": 288
           }
         ]
       }
