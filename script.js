@@ -1,20 +1,16 @@
-// 改良版 script.js - サイズ選択・比較対応
 
-// グローバル保持
 let modelsData = [];
 let selectedBrand = null;
 let selectedModel = null;
 let selectedYear = null;
 let selectedSize = null;
 
-// DOM取得
 const brandSelect = document.getElementById('brandSelect');
 const modelSelect = document.getElementById('modelSelect');
 const yearSelect = document.getElementById('yearSelect');
 const sizeSelect = document.getElementById('sizeSelect');
 const resultArea = document.getElementById('resultArea');
 
-// JSON読込
 fetch('models.json')
   .then(res => res.json())
   .then(data => {
@@ -103,6 +99,5 @@ function showResult() {
   const modelObj = brandObj.models.find(m => m.name === selectedModel);
   const versionObj = modelObj.versions.find(v => v.year === selectedYear);
   const sizeObj = versionObj.sizes.find(s => (s.length_cm || s.length_mm).toString() === selectedSize);
-
   resultArea.innerHTML = `<pre>${JSON.stringify(sizeObj, null, 2)}</pre>`;
 }
