@@ -1,56 +1,41 @@
 [
   {
-    "brand": "Gentemstick",
+    "brand": "KORUA",
     "models": [
       {
-        "name": "MANTARAY 142",
-        "sizes": [
+        "name": "Tranny Finder Plus",
+        "versions": [
           {
-            "length_mm": 1419.5,
-            "running_length_mm": 850,
-            "effective_edge_mm": 1039.5,
-            "nose_width_mm": 288,
-            "waist_width_mm": 244,
-            "tail_width_mm": 270.6
-          }
-        ]
-      },
-      {
-        "name": "FLY FISK 164",
-        "sizes": [
-          {
-            "length_mm": 1640,
-            "running_length_mm": 1033,
-            "effective_edge_mm": 1133,
-            "nose_width_mm": 344,
-            "waist_width_mm": 287,
-            "tail_width_mm": 302
-          }
-        ]
-      },
-      {
-        "name": "THE CHASER 157",
-        "sizes": [
-          {
-            "length_mm": 1570,
-            "running_length_mm": 980,
-            "effective_edge_mm": 1112,
-            "nose_width_mm": 304,
-            "waist_width_mm": 256,
-            "tail_width_mm": 289
-          }
-        ]
-      },
-      {
-        "name": "INDY STICK 161",
-        "sizes": [
-          {
-            "length_mm": 1610,
-            "running_length_mm": 1020,
-            "effective_edge_mm": 1175,
-            "nose_width_mm": 300,
-            "waist_width_mm": 255,
-            "tail_width_mm": 288
+            "year": "18-19",
+            "sizes": [
+              {
+                "length_cm": 157,
+                "effective_edge_mm": 1200,
+                "contact_length_mm": 1070,
+                "nose_width_mm": 324,
+                "waist_width_mm": 269,
+                "tail_width_mm": 293,
+                "sidecut_radius_m": 8.2,
+                "setback_mm": 20,
+                "taper_mm": 31,
+                "stance_cm": 55,
+                "stance_range_cm": "50-64",
+                "weight_kg": 2.5,
+                "switch_riding": "No Problem",
+                "flex": 8,
+                "float": 7,
+                "topsheet": "Brushed Polyamid Triple Compound",
+                "fiberglass": "Carbon Multiaxial",
+                "core": "Paulownia/Poplar Light",
+                "base_material": "Nano Highspeed Sintered",
+                "base_construction": "Classic",
+                "finish": "Beltgrind",
+                "edges": "Metal",
+                "shape": "Directional",
+                "rider_weight_kg": "60-90",
+                "boot_size_eu": "up to ~ 46"
+              }
+            ]
           }
         ]
       }
