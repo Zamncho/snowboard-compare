@@ -1,512 +1,5422 @@
-[
-  {
-    "brand": "KORUA",
-    "models": [
-      {
-        "name": "OTTO",
-        "versions": [
-          {
-            "year": "24-25",
-            "sizes": [
-              {
-                "length_cm": 153,
-                "effective_edge_mm": 1120,
-                "contact_length_mm": 970,
-                "nose_width_mm": 291,
-                "waist_width_mm": 255,
-                "tail_width_mm": 291,
-                "sidecut_radius_m": 8.1,
-                "setback_mm": 10,
-                "taper_mm": 0,
-                "stance_cm": 55,
-                "stance_range_cm": "49 - 61",
-                "weight_kg": 2.7,
-                "switch_riding": "Hell Yeah"
-              },
-              {
-                "length_cm": 157,
-                "effective_edge_mm": 1170,
-                "contact_length_mm": 1010,
-                "nose_width_mm": 298,
-                "waist_width_mm": 260,
-                "tail_width_mm": 298,
-                "sidecut_radius_m": 8.2,
-                "setback_mm": 10,
-                "taper_mm": 0,
-                "stance_cm": 55,
-                "stance_range_cm": "49 - 61",
-                "weight_kg": 2.8,
-                "switch_riding": "Hell Yeah"
-              },
-              {
-                "length_cm": 161,
-                "effective_edge_mm": 1210,
-                "contact_length_mm": 1050,
-                "nose_width_mm": 309,
-                "waist_width_mm": 268,
-                "tail_width_mm": 309,
-                "sidecut_radius_m": 8.3,
-                "setback_mm": 10,
-                "taper_mm": 0,
-                "stance_cm": 56,
-                "stance_range_cm": "50 - 62",
-                "weight_kg": 3.0,
-                "switch_riding": "Hell Yeah"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Transition Finder",
-        "versions": [
-          {
-            "year": "24-25",
-            "sizes": [
-              {
-                "length_cm": 150,
-                "effective_edge_mm": 1130,
-                "contact_length_mm": 960,
-                "nose_width_mm": 294,
-                "waist_width_mm": 252,
-                "tail_width_mm": 278,
-                "sidecut_radius_m": 8.1,
-                "setback_mm": 20,
-                "taper_mm": 16,
-                "stance_cm": 54,
-                "stance_range_cm": "48-60",
-                "weight_kg": 2.7,
-                "switch_riding": "No Problem"
-              },
-              {
-                "length_cm": 154,
-                "effective_edge_mm": 1170,
-                "contact_length_mm": 1000,
-                "nose_width_mm": 306,
-                "waist_width_mm": 260,
-                "tail_width_mm": 288,
-                "sidecut_radius_m": 8.1,
-                "setback_mm": 20,
-                "taper_mm": 18,
-                "stance_cm": 55,
-                "stance_range_cm": "49-61",
-                "weight_kg": 2.8,
-                "switch_riding": "No Problem"
-              },
-              {
-                "length_cm": 157,
-                "effective_edge_mm": 1200,
-                "contact_length_mm": 1020,
-                "nose_width_mm": 316,
-                "waist_width_mm": 268,
-                "tail_width_mm": 298,
-                "sidecut_radius_m": 8.2,
-                "setback_mm": 20,
-                "taper_mm": 18,
-                "stance_cm": 56,
-                "stance_range_cm": "50-62",
-                "weight_kg": 2.9,
-                "switch_riding": "No Problem"
-              },
-              {
-                "length_cm": 160,
-                "effective_edge_mm": 1220,
-                "contact_length_mm": 1040,
-                "nose_width_mm": 327,
-                "waist_width_mm": 278,
-                "tail_width_mm": 309,
-                "sidecut_radius_m": 8.2,
-                "setback_mm": 20,
-                "taper_mm": 18,
-                "stance_cm": 56,
-                "stance_range_cm": "50-62",
-                "weight_kg": 3.1,
-                "switch_riding": "No Problem"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Caf\u00e9 Racer",
-        "versions": [
-          {
-            "year": "24-25",
-            "sizes": [
-              {
-                "length_cm": 150,
-                "effective_edge_mm": 1100,
-                "contact_length_mm": 950,
-                "nose_width_mm": 302,
-                "waist_width_mm": 254,
-                "tail_width_mm": 276,
-                "sidecut_radius_m": 7.9,
-                "setback_mm": 35,
-                "taper_mm": 26,
-                "stance_cm": 53,
-                "stance_range_cm": "47-59",
-                "weight_kg": 2.6,
-                "switch_riding": "Doable"
-              },
-              {
-                "length_cm": 156,
-                "effective_edge_mm": 1160,
-                "contact_length_mm": 1010,
-                "nose_width_mm": 311,
-                "waist_width_mm": 260,
-                "tail_width_mm": 284,
-                "sidecut_radius_m": 8.0,
-                "setback_mm": 35,
-                "taper_mm": 27,
-                "stance_cm": 54,
-                "stance_range_cm": "48-60",
-                "weight_kg": 2.7,
-                "switch_riding": "Doable"
-              },
-              {
-                "length_cm": 159,
-                "effective_edge_mm": 1200,
-                "contact_length_mm": 1050,
-                "nose_width_mm": 322,
-                "waist_width_mm": 269,
-                "tail_width_mm": 294,
-                "sidecut_radius_m": 8.2,
-                "setback_mm": 35,
-                "taper_mm": 28,
-                "stance_cm": 55,
-                "stance_range_cm": "49-61",
-                "weight_kg": 2.8,
-                "switch_riding": "Doable"
-              },
-              {
-                "length_cm": 164,
-                "effective_edge_mm": 1230,
-                "contact_length_mm": 1090,
-                "nose_width_mm": 330,
-                "waist_width_mm": 276,
-                "tail_width_mm": 302,
-                "sidecut_radius_m": 8.5,
-                "setback_mm": 35,
-                "taper_mm": 28,
-                "stance_cm": 55,
-                "stance_range_cm": "49-61",
-                "weight_kg": 3.1,
-                "switch_riding": "Doable"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Dart",
-        "versions": [
-          {
-            "year": "24-25",
-            "sizes": [
-              {
-                "length_cm": 140,
-                "effective_edge_mm": 1050,
-                "contact_length_mm": 930,
-                "nose_width_mm": 301,
-                "waist_width_mm": 252,
-                "tail_width_mm": 273,
-                "sidecut_radius_m": 8.1,
-                "setback_mm": 20,
-                "taper_mm": 18,
-                "stance_cm": 54,
-                "stance_range_cm": "49-63",
-                "weight_kg": 2.5,
-                "switch_riding": "Challenging"
-              },
-              {
-                "length_cm": 152,
-                "effective_edge_mm": 1160,
-                "contact_length_mm": 1010,
-                "nose_width_mm": 311,
-                "waist_width_mm": 260,
-                "tail_width_mm": 284,
-                "sidecut_radius_m": 8.1,
-                "setback_mm": 40,
-                "taper_mm": 27,
-                "stance_cm": 52,
-                "stance_range_cm": "48-56",
-                "weight_kg": 2.7,
-                "switch_riding": "Challenging"
-              },
-              {
-                "length_cm": 156,
-                "effective_edge_mm": 1200,
-                "contact_length_mm": 1050,
-                "nose_width_mm": 322,
-                "waist_width_mm": 269,
-                "tail_width_mm": 294,
-                "sidecut_radius_m": 8.2,
-                "setback_mm": 40,
-                "taper_mm": 28,
-                "stance_cm": 53,
-                "stance_range_cm": "49-57",
-                "weight_kg": 2.9,
-                "switch_riding": "Challenging"
-              },
-              {
-                "length_cm": 160,
-                "effective_edge_mm": 1230,
-                "contact_length_mm": 1090,
-                "nose_width_mm": 328,
-                "waist_width_mm": 274,
-                "tail_width_mm": 300,
-                "sidecut_radius_m": 8.3,
-                "setback_mm": 40,
-                "taper_mm": 28,
-                "stance_cm": 53,
-                "stance_range_cm": "49-57",
-                "weight_kg": 3.0,
-                "switch_riding": "Challenging"
-              },
-              {
-                "length_cm": 164,
-                "effective_edge_mm": 1270,
-                "contact_length_mm": 1130,
-                "nose_width_mm": 336,
-                "waist_width_mm": 280,
-                "tail_width_mm": 308,
-                "sidecut_radius_m": 8.4,
-                "setback_mm": 40,
-                "taper_mm": 28,
-                "stance_cm": 53,
-                "stance_range_cm": "49-57",
-                "weight_kg": 3.2,
-                "switch_riding": "Challenging"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Pencil",
-        "versions": [
-          {
-            "year": "24-25",
-            "sizes": [
-              {
-                "length_cm": 138,
-                "effective_edge_mm": 980,
-                "contact_length_mm": 840,
-                "nose_width_mm": 280,
-                "waist_width_mm": 240,
-                "tail_width_mm": 256,
-                "sidecut_radius_m": 7.8,
-                "setback_mm": 35,
-                "taper_mm": 24,
-                "stance_cm": 46,
-                "stance_range_cm": "40-52",
-                "weight_kg": 2.3,
-                "switch_riding": "Doable"
-              },
-              {
-                "length_cm": 147,
-                "effective_edge_mm": 1060,
-                "contact_length_mm": 920,
-                "nose_width_mm": 298,
-                "waist_width_mm": 252,
-                "tail_width_mm": 272,
-                "sidecut_radius_m": 7.9,
-                "setback_mm": 35,
-                "taper_mm": 26,
-                "stance_cm": 53,
-                "stance_range_cm": "47-59",
-                "weight_kg": 2.6,
-                "switch_riding": "Doable"
-              },
-              {
-                "length_cm": 153,
-                "effective_edge_mm": 1100,
-                "contact_length_mm": 950,
-                "nose_width_mm": 302,
-                "waist_width_mm": 254,
-                "tail_width_mm": 276,
-                "sidecut_radius_m": 8.0,
-                "setback_mm": 35,
-                "taper_mm": 27,
-                "stance_cm": 53,
-                "stance_range_cm": "47-59",
-                "weight_kg": 2.7,
-                "switch_riding": "Doable"
-              },
-              {
-                "length_cm": 159,
-                "effective_edge_mm": 1160,
-                "contact_length_mm": 1030,
-                "nose_width_mm": 311,
-                "waist_width_mm": 260,
-                "tail_width_mm": 284,
-                "sidecut_radius_m": 8.1,
-                "setback_mm": 35,
-                "taper_mm": 28,
-                "stance_cm": 55,
-                "stance_range_cm": "49-61",
-                "weight_kg": 2.8,
-                "switch_riding": "Doable"
-              },
-              {
-                "length_cm": 164,
-                "effective_edge_mm": 1200,
-                "contact_length_mm": 1060,
-                "nose_width_mm": 322,
-                "waist_width_mm": 269,
-                "tail_width_mm": 294,
-                "sidecut_radius_m": 8.2,
-                "setback_mm": 35,
-                "taper_mm": 28,
-                "stance_cm": 55,
-                "stance_range_cm": "49-61",
-                "weight_kg": 3.0,
-                "switch_riding": "Doable"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Pin Tonic",
-        "versions": [
-          {
-            "year": "24-25",
-            "sizes": [
-              {
-                "length_cm": 164,
-                "effective_edge_mm": 1200,
-                "contact_length_mm": 1060,
-                "nose_width_mm": 324,
-                "waist_width_mm": 269,
-                "tail_width_mm": 293,
-                "sidecut_radius_m": 8.2,
-                "setback_mm": 20,
-                "taper_mm": 31,
-                "stance_cm": 55,
-                "stance_range_cm": "50-64",
-                "weight_kg": 2.9,
-                "switch_riding": "No Problem"
-              },
-              {
-                "length_cm": 172,
-                "effective_edge_mm": 1260,
-                "contact_length_mm": 1120,
-                "nose_width_mm": 332,
-                "waist_width_mm": 276,
-                "tail_width_mm": 303,
-                "sidecut_radius_m": 8.6,
-                "setback_mm": 20,
-                "taper_mm": 28,
-                "stance_cm": 55,
-                "stance_range_cm": "50-64",
-                "weight_kg": 3.1,
-                "switch_riding": "No Problem"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Pocket Rocket",
-        "versions": [
-          {
-            "year": "24-25",
-            "sizes": [
-              {
-                "length_cm": 129,
-                "effective_edge_mm": 950,
-                "contact_length_mm": null,
-                "nose_width_mm": 359,
-                "waist_width_mm": 302,
-                "tail_width_mm": 296,
-                "sidecut_radius_m": 8.2,
-                "setback_mm": 20,
-                "taper_mm": 44,
-                "stance_cm": 54,
-                "stance_range_cm": "44-58",
-                "weight_kg": 2.5,
-                "switch_riding": "Challenging"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "\u00dcberegg",
-        "versions": [
-          {
-            "year": "24-25",
-            "sizes": [
-              {
-                "length_cm": 157,
-                "effective_edge_mm": 1030,
-                "contact_length_mm": 1030,
-                "nose_width_mm": 352,
-                "waist_width_mm": 290,
-                "tail_width_mm": 286,
-                "sidecut_radius_m": 8.8,
-                "setback_mm": 60,
-                "taper_mm": 66,
-                "stance_cm": 54,
-                "stance_range_cm": "42-70",
-                "weight_kg": 2.7,
-                "switch_riding": "No Problem"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Apollo 10",
-        "versions": [
-          {
-            "year": "24-25",
-            "sizes": [
-              {
-                "length_cm": 162,
-                "effective_edge_mm": 1190,
-                "contact_length_mm": 1050,
-                "nose_width_mm": 323,
-                "waist_width_mm": 269,
-                "tail_width_mm": 294,
-                "sidecut_radius_m": 8.2,
-                "setback_mm": 30,
-                "taper_mm": 29,
-                "stance_cm": 53,
-                "stance_range_cm": "47-59",
-                "weight_kg": 2.8,
-                "switch_riding": "Doable"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Tranny Finder Plus",
-        "versions": [
-          {
-            "year": "18-19",
-            "sizes": [
-              {
-                "length_cm": 157,
-                "effective_edge_mm": 1200,
-                "contact_length_mm": 1070,
-                "nose_width_mm": 324,
-                "waist_width_mm": 269,
-                "tail_width_mm": 293,
-                "sidecut_radius_m": 8.2,
-                "setback_mm": 20,
-                "taper_mm": 31,
-                "stance_cm": 55,
-                "stance_range_cm": "50-64",
-                "weight_kg": 2.5,
-                "switch_riding": "No Problem"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-]
+{
+  "models": [
+    {
+      "name": "OTTO",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 153,
+              "effective_edge_mm": 1120,
+              "nose_width_mm": 291,
+              "waist_width_mm": 255,
+              "tail_width_mm": 291,
+              "sidecut_radius_m": 8.1,
+              "setback_mm": 10,
+              "taper_mm": 0,
+              "stance_width_mm": 55,
+              "weight_kg": 2.7
+            },
+            {
+              "length_mm": 157,
+              "effective_edge_mm": 1170,
+              "nose_width_mm": 298,
+              "waist_width_mm": 260,
+              "tail_width_mm": 298,
+              "sidecut_radius_m": 8.2,
+              "setback_mm": 10,
+              "taper_mm": 0,
+              "stance_width_mm": 55,
+              "weight_kg": 2.8
+            },
+            {
+              "length_mm": 161,
+              "effective_edge_mm": 1210,
+              "nose_width_mm": 309,
+              "waist_width_mm": 268,
+              "tail_width_mm": 309,
+              "sidecut_radius_m": 8.3,
+              "setback_mm": 10,
+              "taper_mm": 0,
+              "stance_width_mm": 56,
+              "weight_kg": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transition Finder",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 150,
+              "effective_edge_mm": 1130,
+              "nose_width_mm": 294,
+              "waist_width_mm": 252,
+              "tail_width_mm": 278,
+              "sidecut_radius_m": 8.1,
+              "setback_mm": 20,
+              "taper_mm": 16,
+              "stance_width_mm": 54,
+              "weight_kg": 2.7
+            },
+            {
+              "length_mm": 154,
+              "effective_edge_mm": 1170,
+              "nose_width_mm": 306,
+              "waist_width_mm": 260,
+              "tail_width_mm": 288,
+              "sidecut_radius_m": 8.1,
+              "setback_mm": 20,
+              "taper_mm": 18,
+              "stance_width_mm": 55,
+              "weight_kg": 2.8
+            },
+            {
+              "length_mm": 157,
+              "effective_edge_mm": 1200,
+              "nose_width_mm": 316,
+              "waist_width_mm": 268,
+              "tail_width_mm": 298,
+              "sidecut_radius_m": 8.2,
+              "setback_mm": 20,
+              "taper_mm": 18,
+              "stance_width_mm": 56,
+              "weight_kg": 2.9
+            },
+            {
+              "length_mm": 160,
+              "effective_edge_mm": 1220,
+              "nose_width_mm": 327,
+              "waist_width_mm": 278,
+              "tail_width_mm": 309,
+              "sidecut_radius_m": 8.2,
+              "setback_mm": 20,
+              "taper_mm": 18,
+              "stance_width_mm": 56,
+              "weight_kg": 3.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Café Racer",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 150,
+              "effective_edge_mm": 1100,
+              "nose_width_mm": 302,
+              "waist_width_mm": 254,
+              "tail_width_mm": 276,
+              "sidecut_radius_m": 7.9,
+              "setback_mm": 35,
+              "taper_mm": 26,
+              "stance_width_mm": 53,
+              "weight_kg": 2.6
+            },
+            {
+              "length_mm": 156,
+              "effective_edge_mm": 1160,
+              "nose_width_mm": 311,
+              "waist_width_mm": 260,
+              "tail_width_mm": 284,
+              "sidecut_radius_m": 8.0,
+              "setback_mm": 35,
+              "taper_mm": 27,
+              "stance_width_mm": 54,
+              "weight_kg": 2.7
+            },
+            {
+              "length_mm": 159,
+              "effective_edge_mm": 1200,
+              "nose_width_mm": 322,
+              "waist_width_mm": 269,
+              "tail_width_mm": 294,
+              "sidecut_radius_m": 8.2,
+              "setback_mm": 35,
+              "taper_mm": 28,
+              "stance_width_mm": 55,
+              "weight_kg": 2.8
+            },
+            {
+              "length_mm": 164,
+              "effective_edge_mm": 1230,
+              "nose_width_mm": 330,
+              "waist_width_mm": 276,
+              "tail_width_mm": 302,
+              "sidecut_radius_m": 8.5,
+              "setback_mm": 35,
+              "taper_mm": 28,
+              "stance_width_mm": 55,
+              "weight_kg": 3.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dart",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 140,
+              "effective_edge_mm": 1050,
+              "nose_width_mm": 301,
+              "waist_width_mm": 252,
+              "tail_width_mm": 273,
+              "sidecut_radius_m": 8.1,
+              "setback_mm": 20,
+              "taper_mm": 18,
+              "stance_width_mm": 54,
+              "weight_kg": 2.5
+            },
+            {
+              "length_mm": 152,
+              "effective_edge_mm": 1160,
+              "nose_width_mm": 311,
+              "waist_width_mm": 260,
+              "tail_width_mm": 284,
+              "sidecut_radius_m": 8.1,
+              "setback_mm": 40,
+              "taper_mm": 27,
+              "stance_width_mm": 52,
+              "weight_kg": 2.7
+            },
+            {
+              "length_mm": 156,
+              "effective_edge_mm": 1200,
+              "nose_width_mm": 322,
+              "waist_width_mm": 269,
+              "tail_width_mm": 294,
+              "sidecut_radius_m": 8.2,
+              "setback_mm": 40,
+              "taper_mm": 28,
+              "stance_width_mm": 53,
+              "weight_kg": 2.9
+            },
+            {
+              "length_mm": 160,
+              "effective_edge_mm": 1230,
+              "nose_width_mm": 328,
+              "waist_width_mm": 274,
+              "tail_width_mm": 300,
+              "sidecut_radius_m": 8.3,
+              "setback_mm": 40,
+              "taper_mm": 28,
+              "stance_width_mm": 53,
+              "weight_kg": 3.0
+            },
+            {
+              "length_mm": 164,
+              "effective_edge_mm": 1270,
+              "nose_width_mm": 336,
+              "waist_width_mm": 280,
+              "tail_width_mm": 308,
+              "sidecut_radius_m": 8.4,
+              "setback_mm": 40,
+              "taper_mm": 28,
+              "stance_width_mm": 53,
+              "weight_kg": 3.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pencil",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 138,
+              "effective_edge_mm": 980,
+              "nose_width_mm": 280,
+              "waist_width_mm": 240,
+              "tail_width_mm": 256,
+              "sidecut_radius_m": 7.8,
+              "setback_mm": 35,
+              "taper_mm": 24,
+              "stance_width_mm": 46,
+              "weight_kg": 2.3
+            },
+            {
+              "length_mm": 147,
+              "effective_edge_mm": 1060,
+              "nose_width_mm": 298,
+              "waist_width_mm": 252,
+              "tail_width_mm": 272,
+              "sidecut_radius_m": 7.9,
+              "setback_mm": 35,
+              "taper_mm": 26,
+              "stance_width_mm": 53,
+              "weight_kg": 2.6
+            },
+            {
+              "length_mm": 153,
+              "effective_edge_mm": 1100,
+              "nose_width_mm": 302,
+              "waist_width_mm": 254,
+              "tail_width_mm": 276,
+              "sidecut_radius_m": 8.0,
+              "setback_mm": 35,
+              "taper_mm": 27,
+              "stance_width_mm": 53,
+              "weight_kg": 2.7
+            },
+            {
+              "length_mm": 159,
+              "effective_edge_mm": 1160,
+              "nose_width_mm": 311,
+              "waist_width_mm": 260,
+              "tail_width_mm": 284,
+              "sidecut_radius_m": 8.1,
+              "setback_mm": 35,
+              "taper_mm": 28,
+              "stance_width_mm": 55,
+              "weight_kg": 2.8
+            },
+            {
+              "length_mm": 164,
+              "effective_edge_mm": 1200,
+              "nose_width_mm": 322,
+              "waist_width_mm": 269,
+              "tail_width_mm": 294,
+              "sidecut_radius_m": 8.2,
+              "setback_mm": 35,
+              "taper_mm": 28,
+              "stance_width_mm": 55,
+              "weight_kg": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pin Tonic",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 164,
+              "effective_edge_mm": 1200,
+              "nose_width_mm": 324,
+              "waist_width_mm": 269,
+              "tail_width_mm": 293,
+              "sidecut_radius_m": 8.2,
+              "setback_mm": 20,
+              "taper_mm": 31,
+              "stance_width_mm": 55,
+              "weight_kg": 2.9
+            },
+            {
+              "length_mm": 172,
+              "effective_edge_mm": 1260,
+              "nose_width_mm": 332,
+              "waist_width_mm": 276,
+              "tail_width_mm": 303,
+              "sidecut_radius_m": 8.6,
+              "setback_mm": 20,
+              "taper_mm": 28,
+              "stance_width_mm": 55,
+              "weight_kg": 3.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pocket Rocket",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 129,
+              "effective_edge_mm": 950,
+              "nose_width_mm": 359,
+              "waist_width_mm": 302,
+              "tail_width_mm": 296,
+              "sidecut_radius_m": 8.2,
+              "setback_mm": 20,
+              "taper_mm": 44,
+              "stance_width_mm": 54,
+              "weight_kg": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Überegg",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 157,
+              "effective_edge_mm": 1030,
+              "nose_width_mm": 352,
+              "waist_width_mm": 290,
+              "tail_width_mm": 286,
+              "sidecut_radius_m": 8.8,
+              "setback_mm": 60,
+              "taper_mm": 66,
+              "stance_width_mm": 54,
+              "weight_kg": 2.7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Apollo 10",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 162,
+              "effective_edge_mm": 1190,
+              "nose_width_mm": 323,
+              "waist_width_mm": 269,
+              "tail_width_mm": 294,
+              "sidecut_radius_m": 8.2,
+              "setback_mm": 30,
+              "taper_mm": 29,
+              "stance_width_mm": 53,
+              "weight_kg": 2.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tranny Finder Plus",
+      "versions": [
+        {
+          "year": "18-19",
+          "sizes": [
+            {
+              "length_mm": 157,
+              "effective_edge_mm": 1200,
+              "nose_width_mm": 324,
+              "waist_width_mm": 269,
+              "tail_width_mm": 293,
+              "sidecut_radius_m": 8.2,
+              "setback_mm": 20,
+              "taper_mm": 31,
+              "stance_width_mm": 55,
+              "weight_kg": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BABY MANTARAY",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1480.0,
+              "running_length_mm": 920.0,
+              "nose_width_mm": 297.0,
+              "waist_width_mm": 246.0,
+              "tail_width_mm": 276.0,
+              "sidecut_radius_m": 7180.0,
+              "setback_mm": -59.0,
+              "taper_mm": 10.5,
+              "stance_width_mm": "460-540",
+              "effective_edge_mm": 1144.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BABY MANTARAY HARDFLEX",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1480.0,
+              "running_length_mm": 920.0,
+              "nose_width_mm": 297.0,
+              "waist_width_mm": 246.0,
+              "tail_width_mm": 276.0,
+              "sidecut_radius_m": 7180.0,
+              "setback_mm": -59.0,
+              "taper_mm": 10.5,
+              "stance_width_mm": "460-540",
+              "effective_edge_mm": 1144.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BABY STINGRAY",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1510.0,
+              "running_length_mm": 930.0,
+              "nose_width_mm": 298.5,
+              "waist_width_mm": 248.9,
+              "tail_width_mm": 275.5,
+              "sidecut_radius_m": 7700.0,
+              "setback_mm": -33.5,
+              "taper_mm": 11.5,
+              "stance_width_mm": "467-547",
+              "effective_edge_mm": 1150.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BABY STINGRAY CHOPSTICKS",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1510.0,
+              "running_length_mm": 930.0,
+              "nose_width_mm": 298.5,
+              "waist_width_mm": 248.9,
+              "tail_width_mm": 275.5,
+              "sidecut_radius_m": 7700.0,
+              "setback_mm": -33.5,
+              "taper_mm": 11.5,
+              "stance_width_mm": "431-557",
+              "effective_edge_mm": 1150.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1510.0,
+              "running_length_mm": 930.0,
+              "nose_width_mm": 298.5,
+              "waist_width_mm": 248.9,
+              "tail_width_mm": 275.5,
+              "sidecut_radius_m": 7700.0,
+              "setback_mm": -33.5,
+              "taper_mm": 11.5,
+              "stance_width_mm": "431-557",
+              "effective_edge_mm": 1150.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1510.0,
+              "running_length_mm": 930.0,
+              "nose_width_mm": 298.5,
+              "waist_width_mm": 248.9,
+              "tail_width_mm": 275.5,
+              "sidecut_radius_m": 7700.0,
+              "setback_mm": -33.5,
+              "taper_mm": 11.5,
+              "stance_width_mm": "456-557",
+              "effective_edge_mm": 1150.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BARRACUDA",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1586.0,
+              "running_length_mm": 1033.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 287.0,
+              "tail_width_mm": 302.0,
+              "sidecut_radius_m": 9000.0,
+              "setback_mm": 10.0,
+              "taper_mm": 21.0,
+              "stance_width_mm": "500-600",
+              "effective_edge_mm": 1133.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1586.0,
+              "running_length_mm": 1033.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 287.0,
+              "tail_width_mm": 302.0,
+              "sidecut_radius_m": 9000.0,
+              "setback_mm": 10.0,
+              "taper_mm": 21.0,
+              "stance_width_mm": "500-600",
+              "effective_edge_mm": 1133.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1586.0,
+              "running_length_mm": 1033.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 287.0,
+              "tail_width_mm": 302.0,
+              "sidecut_radius_m": 9000.0,
+              "setback_mm": 10.0,
+              "taper_mm": 21.0,
+              "stance_width_mm": "500-600",
+              "effective_edge_mm": 1133.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BARRACUDA HIGH PERFORMANCE",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1573.0,
+              "running_length_mm": 1033.0,
+              "nose_width_mm": 324.0,
+              "waist_width_mm": 270.0,
+              "tail_width_mm": 286.0,
+              "sidecut_radius_m": 9000.0,
+              "setback_mm": 12.5,
+              "taper_mm": 19.0,
+              "stance_width_mm": "500-600",
+              "effective_edge_mm": 1128.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1573.0,
+              "running_length_mm": 1033.0,
+              "nose_width_mm": 324.0,
+              "waist_width_mm": 270.0,
+              "tail_width_mm": 286.0,
+              "sidecut_radius_m": 9000.0,
+              "setback_mm": 12.5,
+              "taper_mm": 19.0,
+              "stance_width_mm": "500-600",
+              "effective_edge_mm": 1128.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1573.0,
+              "running_length_mm": 1033.0,
+              "nose_width_mm": 324.0,
+              "waist_width_mm": 270.0,
+              "tail_width_mm": 286.0,
+              "sidecut_radius_m": 9000.0,
+              "setback_mm": 12.5,
+              "taper_mm": 19.0,
+              "stance_width_mm": "500-600",
+              "effective_edge_mm": 1128.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BIG FISH",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1630.0,
+              "running_length_mm": 1072.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 287.0,
+              "tail_width_mm": 304.0,
+              "sidecut_radius_m": 9200.0,
+              "setback_mm": 48.0,
+              "taper_mm": 20.0,
+              "stance_width_mm": "520-600",
+              "effective_edge_mm": 1176.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1630.0,
+              "running_length_mm": 1072.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 287.0,
+              "tail_width_mm": 304.0,
+              "sidecut_radius_m": 9200.0,
+              "setback_mm": 48.0,
+              "taper_mm": 20.0,
+              "stance_width_mm": "520-600",
+              "effective_edge_mm": 1176.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1630.0,
+              "running_length_mm": 1072.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 287.0,
+              "tail_width_mm": 304.0,
+              "sidecut_radius_m": 9200.0,
+              "setback_mm": 48.0,
+              "taper_mm": 20.0,
+              "stance_width_mm": "520-600",
+              "effective_edge_mm": 1176.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BIG FISH OUTLINE CORE",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1630.0,
+              "running_length_mm": 1072.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 287.0,
+              "tail_width_mm": 304.0,
+              "sidecut_radius_m": 9200.0,
+              "setback_mm": 48.0,
+              "taper_mm": 20.0,
+              "stance_width_mm": "520-600",
+              "effective_edge_mm": 1176.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1630.0,
+              "running_length_mm": 1072.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 287.0,
+              "tail_width_mm": 304.0,
+              "sidecut_radius_m": 9200.0,
+              "setback_mm": 48.0,
+              "taper_mm": 20.0,
+              "stance_width_mm": "520-600",
+              "effective_edge_mm": 1176.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1630.0,
+              "running_length_mm": 1072.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 287.0,
+              "tail_width_mm": 304.0,
+              "sidecut_radius_m": 9200.0,
+              "setback_mm": 48.0,
+              "taper_mm": 20.0,
+              "stance_width_mm": "520-600",
+              "effective_edge_mm": 1176.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DRIFTER",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1550.0,
+              "running_length_mm": 892.0,
+              "nose_width_mm": 301.0,
+              "waist_width_mm": 256.0,
+              "tail_width_mm": 271.0,
+              "sidecut_radius_m": 100008500.0,
+              "setback_mm": -38.0,
+              "taper_mm": 15.0,
+              "stance_width_mm": "500-580",
+              "effective_edge_mm": 1057.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1550.0,
+              "running_length_mm": 892.0,
+              "nose_width_mm": 301.0,
+              "waist_width_mm": 256.0,
+              "tail_width_mm": 271.0,
+              "sidecut_radius_m": 100008500.0,
+              "setback_mm": -38.0,
+              "taper_mm": 15.0,
+              "stance_width_mm": "500-580",
+              "effective_edge_mm": 1088.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1550.0,
+              "running_length_mm": 892.0,
+              "nose_width_mm": 301.0,
+              "waist_width_mm": 256.0,
+              "tail_width_mm": 271.0,
+              "sidecut_radius_m": 100008500.0,
+              "setback_mm": -38.0,
+              "taper_mm": 15.0,
+              "stance_width_mm": "500-580",
+              "effective_edge_mm": 1088.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FLAIR",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1446.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 302.0,
+              "waist_width_mm": 244.0,
+              "tail_width_mm": 257.0,
+              "sidecut_radius_m": 81007000.0,
+              "setback_mm": 15.0,
+              "taper_mm": 22.5,
+              "stance_width_mm": "440-520",
+              "effective_edge_mm": 1026.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1446.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 302.0,
+              "waist_width_mm": 244.0,
+              "tail_width_mm": 257.0,
+              "sidecut_radius_m": 81007000.0,
+              "setback_mm": 15.0,
+              "taper_mm": 22.5,
+              "stance_width_mm": "440-520",
+              "effective_edge_mm": 1026.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1446.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 302.0,
+              "waist_width_mm": 244.0,
+              "tail_width_mm": 257.0,
+              "sidecut_radius_m": 81007000.0,
+              "setback_mm": 15.0,
+              "taper_mm": 22.5,
+              "stance_width_mm": "440-520",
+              "effective_edge_mm": 1026.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FLAIR 146 CHOPSTICKS",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1468.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 304.0,
+              "waist_width_mm": 250.0,
+              "tail_width_mm": 266.0,
+              "sidecut_radius_m": 7800.0,
+              "setback_mm": 0.0,
+              "taper_mm": 19.0,
+              "stance_width_mm": "430-530",
+              "effective_edge_mm": 1040.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1468.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 304.0,
+              "waist_width_mm": 250.0,
+              "tail_width_mm": 266.0,
+              "sidecut_radius_m": 7800.0,
+              "setback_mm": 0.0,
+              "taper_mm": 19.0,
+              "stance_width_mm": "430-530",
+              "effective_edge_mm": 1040.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1468.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 304.0,
+              "waist_width_mm": 250.0,
+              "tail_width_mm": 266.0,
+              "sidecut_radius_m": 7800.0,
+              "setback_mm": 0.0,
+              "taper_mm": 19.0,
+              "stance_width_mm": "429-530",
+              "effective_edge_mm": 1040.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FLOATER 153 uni",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1530.0,
+              "running_length_mm": 1057.0,
+              "nose_width_mm": 281.0,
+              "waist_width_mm": 241.0,
+              "tail_width_mm": 269.0,
+              "sidecut_radius_m": 8500.0,
+              "setback_mm": -37.5,
+              "taper_mm": 6.0,
+              "stance_width_mm": "450-490",
+              "effective_edge_mm": 1120.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FLOATER 162",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1626.0,
+              "running_length_mm": 1124.0,
+              "nose_width_mm": 298.0,
+              "waist_width_mm": 255.0,
+              "tail_width_mm": 283.0,
+              "sidecut_radius_m": 9200.0,
+              "setback_mm": -40.0,
+              "taper_mm": 7.5,
+              "stance_width_mm": "510-590",
+              "effective_edge_mm": 1190.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FLY FISKMads Jonsson Pro Model",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1640.0,
+              "running_length_mm": 1033.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 287.0,
+              "tail_width_mm": 302.0,
+              "sidecut_radius_m": 9000.0,
+              "setback_mm": 0.0,
+              "taper_mm": 21.0,
+              "stance_width_mm": "540-660",
+              "effective_edge_mm": 1133.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1640.0,
+              "running_length_mm": 1033.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 287.0,
+              "tail_width_mm": 302.0,
+              "sidecut_radius_m": 9000.0,
+              "setback_mm": 0.0,
+              "taper_mm": 21.0,
+              "stance_width_mm": "540-660",
+              "effective_edge_mm": 1133.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FLY FISK CHOPSTICKS",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1640.0,
+              "running_length_mm": 1033.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 287.0,
+              "tail_width_mm": 302.0,
+              "sidecut_radius_m": 9000.0,
+              "setback_mm": 0.0,
+              "taper_mm": 21.0,
+              "stance_width_mm": "515-690",
+              "effective_edge_mm": 1133.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1640.0,
+              "running_length_mm": 1033.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 287.0,
+              "tail_width_mm": 302.0,
+              "sidecut_radius_m": 9000.0,
+              "setback_mm": 0.0,
+              "taper_mm": 21.0,
+              "stance_width_mm": "515-690",
+              "effective_edge_mm": 1133.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1640.0,
+              "running_length_mm": 1033.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 287.0,
+              "tail_width_mm": 302.0,
+              "sidecut_radius_m": 9000.0,
+              "setback_mm": 0.0,
+              "taper_mm": 21.0,
+              "stance_width_mm": "515-667",
+              "effective_edge_mm": 1133.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FLYING CARPET",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1460.0,
+              "running_length_mm": 780.0,
+              "nose_width_mm": 283.0,
+              "waist_width_mm": 246.5,
+              "tail_width_mm": 265.0,
+              "sidecut_radius_m": 110006200.0,
+              "setback_mm": -6.0,
+              "taper_mm": 9.0,
+              "stance_width_mm": "470-550",
+              "effective_edge_mm": 1049.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1460.0,
+              "running_length_mm": 780.0,
+              "nose_width_mm": 283.0,
+              "waist_width_mm": 246.5,
+              "tail_width_mm": 265.0,
+              "sidecut_radius_m": 110006200.0,
+              "setback_mm": -6.0,
+              "taper_mm": 9.0,
+              "stance_width_mm": "470-550",
+              "effective_edge_mm": 1049.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1460.0,
+              "running_length_mm": 780.0,
+              "nose_width_mm": 283.0,
+              "waist_width_mm": 246.5,
+              "tail_width_mm": 265.0,
+              "sidecut_radius_m": 110006200.0,
+              "setback_mm": -6.0,
+              "taper_mm": 9.0,
+              "stance_width_mm": "470-550",
+              "effective_edge_mm": 1049.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GIANT MANTARAY",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1590.0,
+              "running_length_mm": 979.0,
+              "nose_width_mm": 321.0,
+              "waist_width_mm": 266.0,
+              "tail_width_mm": 299.0,
+              "sidecut_radius_m": 7350.0,
+              "setback_mm": -47.0,
+              "taper_mm": 11.0,
+              "stance_width_mm": "534-614",
+              "effective_edge_mm": 1216.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GIANT MANTARAY PRO CHOPSTICKS",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1590.0,
+              "running_length_mm": 979.0,
+              "nose_width_mm": 321.0,
+              "waist_width_mm": 266.0,
+              "tail_width_mm": 299.0,
+              "sidecut_radius_m": 7350.0,
+              "setback_mm": -47.0,
+              "taper_mm": 11.0,
+              "stance_width_mm": "509-635",
+              "effective_edge_mm": 1216.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1590.0,
+              "running_length_mm": 979.0,
+              "nose_width_mm": 321.0,
+              "waist_width_mm": 266.0,
+              "tail_width_mm": 299.0,
+              "sidecut_radius_m": 7350.0,
+              "setback_mm": -47.0,
+              "taper_mm": 11.0,
+              "stance_width_mm": "509-635",
+              "effective_edge_mm": 1216.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HORNET",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1487.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 330.0,
+              "waist_width_mm": 272.0,
+              "tail_width_mm": 285.0,
+              "sidecut_radius_m": 81007000.0,
+              "setback_mm": 8.0,
+              "taper_mm": 22.5,
+              "stance_width_mm": "480-580",
+              "effective_edge_mm": 1026.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1487.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 330.0,
+              "waist_width_mm": 272.0,
+              "tail_width_mm": 285.0,
+              "sidecut_radius_m": 81007000.0,
+              "setback_mm": 8.0,
+              "taper_mm": 22.5,
+              "stance_width_mm": "480-580",
+              "effective_edge_mm": 1026.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1487.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 330.0,
+              "waist_width_mm": 272.0,
+              "tail_width_mm": 285.0,
+              "sidecut_radius_m": 81007000.0,
+              "setback_mm": 8.0,
+              "taper_mm": 22.5,
+              "stance_width_mm": "480-580",
+              "effective_edge_mm": 1026.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IMPOSSIBLE",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1860.0,
+              "running_length_mm": 1313.0,
+              "nose_width_mm": 300.0,
+              "waist_width_mm": 250.0,
+              "tail_width_mm": 285.0,
+              "sidecut_radius_m": 11000.0,
+              "setback_mm": -20.0,
+              "taper_mm": 7.5,
+              "stance_width_mm": "495-575",
+              "effective_edge_mm": 1415.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1860.0,
+              "running_length_mm": 1313.0,
+              "nose_width_mm": 300.0,
+              "waist_width_mm": 250.0,
+              "tail_width_mm": 285.0,
+              "sidecut_radius_m": 11000.0,
+              "setback_mm": -20.0,
+              "taper_mm": 7.5,
+              "stance_width_mm": "495-575",
+              "effective_edge_mm": 1415.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1860.0,
+              "running_length_mm": 1313.0,
+              "nose_width_mm": 300.0,
+              "waist_width_mm": 250.0,
+              "tail_width_mm": 285.0,
+              "sidecut_radius_m": 11000.0,
+              "setback_mm": -20.0,
+              "taper_mm": 7.5,
+              "stance_width_mm": "495-575",
+              "effective_edge_mm": 1415.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "INDEPENDENTSTICK",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1575.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 292.0,
+              "waist_width_mm": 252.0,
+              "tail_width_mm": 292.0,
+              "sidecut_radius_m": 8100.0,
+              "setback_mm": -20.0,
+              "taper_mm": 0.0,
+              "stance_width_mm": "480-600",
+              "effective_edge_mm": 1190.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1575.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 292.0,
+              "waist_width_mm": 252.0,
+              "tail_width_mm": 292.0,
+              "sidecut_radius_m": 8100.0,
+              "setback_mm": -20.0,
+              "taper_mm": 0.0,
+              "stance_width_mm": "480-600",
+              "effective_edge_mm": 1210.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1575.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 292.0,
+              "waist_width_mm": 252.0,
+              "tail_width_mm": 292.0,
+              "sidecut_radius_m": 8100.0,
+              "setback_mm": -20.0,
+              "taper_mm": 0.0,
+              "stance_width_mm": "480-600",
+              "effective_edge_mm": 1210.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "INDY POOLDECK",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1540.0,
+              "running_length_mm": 920.0,
+              "nose_width_mm": 292.0,
+              "waist_width_mm": 251.0,
+              "tail_width_mm": 292.0,
+              "sidecut_radius_m": 7700.0,
+              "setback_mm": -20.0,
+              "taper_mm": 0.0,
+              "stance_width_mm": "470-550",
+              "effective_edge_mm": 1160.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1540.0,
+              "running_length_mm": 920.0,
+              "nose_width_mm": 292.0,
+              "waist_width_mm": 251.0,
+              "tail_width_mm": 292.0,
+              "sidecut_radius_m": 7700.0,
+              "setback_mm": -20.0,
+              "taper_mm": 0.0,
+              "stance_width_mm": "490-570",
+              "effective_edge_mm": 1160.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1540.0,
+              "running_length_mm": 920.0,
+              "nose_width_mm": 292.0,
+              "waist_width_mm": 251.0,
+              "tail_width_mm": 292.0,
+              "sidecut_radius_m": 7700.0,
+              "setback_mm": -20.0,
+              "taper_mm": 0.0,
+              "stance_width_mm": "490-570",
+              "effective_edge_mm": 1160.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JALKA 125",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1258.0,
+              "running_length_mm": 763.0,
+              "nose_width_mm": 260.0,
+              "waist_width_mm": 222.0,
+              "tail_width_mm": 243.0,
+              "sidecut_radius_m": 6500.0,
+              "setback_mm": -36.0,
+              "taper_mm": 8.5,
+              "stance_width_mm": "390-470",
+              "effective_edge_mm": 922.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1258.0,
+              "running_length_mm": 763.0,
+              "nose_width_mm": 260.0,
+              "waist_width_mm": 222.0,
+              "tail_width_mm": 243.0,
+              "sidecut_radius_m": 6500.0,
+              "setback_mm": -36.0,
+              "taper_mm": 8.5,
+              "stance_width_mm": "390-470",
+              "effective_edge_mm": 922.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1258.0,
+              "running_length_mm": 763.0,
+              "nose_width_mm": 260.0,
+              "waist_width_mm": 222.0,
+              "tail_width_mm": 243.0,
+              "sidecut_radius_m": 6500.0,
+              "setback_mm": -36.0,
+              "taper_mm": 8.5,
+              "stance_width_mm": "390-470",
+              "effective_edge_mm": 922.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LOHI 132",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1320.0,
+              "running_length_mm": 802.0,
+              "nose_width_mm": 271.7,
+              "waist_width_mm": 231.0,
+              "tail_width_mm": 253.1,
+              "sidecut_radius_m": 6800.0,
+              "setback_mm": -44.5,
+              "taper_mm": 9.3,
+              "stance_width_mm": "449-529",
+              "effective_edge_mm": 968.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1320.0,
+              "running_length_mm": 802.0,
+              "nose_width_mm": 271.7,
+              "waist_width_mm": 231.0,
+              "tail_width_mm": 253.1,
+              "sidecut_radius_m": 6800.0,
+              "setback_mm": -44.5,
+              "taper_mm": 9.3,
+              "stance_width_mm": "449-529",
+              "effective_edge_mm": 968.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1320.0,
+              "running_length_mm": 802.0,
+              "nose_width_mm": 271.7,
+              "waist_width_mm": 231.0,
+              "tail_width_mm": 253.1,
+              "sidecut_radius_m": 6800.0,
+              "setback_mm": -44.5,
+              "taper_mm": 9.3,
+              "stance_width_mm": "449-529",
+              "effective_edge_mm": 968.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MAGIC 38",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1680.0,
+              "running_length_mm": 1119.0,
+              "nose_width_mm": 300.0,
+              "waist_width_mm": 250.0,
+              "tail_width_mm": 296.0,
+              "sidecut_radius_m": 83308080.0,
+              "setback_mm": -30.0,
+              "taper_mm": 2.0,
+              "stance_width_mm": "520-600",
+              "effective_edge_mm": 1289.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1680.0,
+              "running_length_mm": 1119.0,
+              "nose_width_mm": 300.0,
+              "waist_width_mm": 250.0,
+              "tail_width_mm": 296.0,
+              "sidecut_radius_m": 83308080.0,
+              "setback_mm": -30.0,
+              "taper_mm": 2.0,
+              "stance_width_mm": "520-600",
+              "effective_edge_mm": 1289.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1680.0,
+              "running_length_mm": 1119.0,
+              "nose_width_mm": 300.0,
+              "waist_width_mm": 250.0,
+              "tail_width_mm": 296.0,
+              "sidecut_radius_m": 83308080.0,
+              "setback_mm": -30.0,
+              "taper_mm": 2.0,
+              "stance_width_mm": "520-600",
+              "effective_edge_mm": 1289.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MANTARAY 142",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1419.5,
+              "running_length_mm": 850.0,
+              "nose_width_mm": 288.0,
+              "waist_width_mm": 244.0,
+              "tail_width_mm": 270.6,
+              "sidecut_radius_m": 72006750.0,
+              "setback_mm": -41.55,
+              "taper_mm": 8.7,
+              "stance_width_mm": "430-510",
+              "effective_edge_mm": 1039.5
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1419.5,
+              "running_length_mm": 850.0,
+              "nose_width_mm": 288.0,
+              "waist_width_mm": 244.0,
+              "tail_width_mm": 270.6,
+              "sidecut_radius_m": 72006750.0,
+              "setback_mm": -41.55,
+              "taper_mm": 8.7,
+              "stance_width_mm": "430-510",
+              "effective_edge_mm": 1039.5
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1419.5,
+              "running_length_mm": 850.0,
+              "nose_width_mm": 288.0,
+              "waist_width_mm": 244.0,
+              "tail_width_mm": 270.6,
+              "sidecut_radius_m": 72006750.0,
+              "setback_mm": -41.55,
+              "taper_mm": 8.7,
+              "stance_width_mm": "430-510",
+              "effective_edge_mm": 1039.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MANTARAY 145",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1450.0,
+              "running_length_mm": 890.0,
+              "nose_width_mm": 294.0,
+              "waist_width_mm": 244.0,
+              "tail_width_mm": 274.0,
+              "sidecut_radius_m": 70006850.0,
+              "setback_mm": -38.0,
+              "taper_mm": 10.0,
+              "stance_width_mm": "440-520",
+              "effective_edge_mm": 1100.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1450.0,
+              "running_length_mm": 890.0,
+              "nose_width_mm": 294.0,
+              "waist_width_mm": 244.0,
+              "tail_width_mm": 274.0,
+              "sidecut_radius_m": 70006850.0,
+              "setback_mm": -38.0,
+              "taper_mm": 10.0,
+              "stance_width_mm": "440-520",
+              "effective_edge_mm": 1100.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1450.0,
+              "running_length_mm": 890.0,
+              "nose_width_mm": 294.0,
+              "waist_width_mm": 244.0,
+              "tail_width_mm": 274.0,
+              "sidecut_radius_m": 70006850.0,
+              "setback_mm": -38.0,
+              "taper_mm": 10.0,
+              "stance_width_mm": "440-520",
+              "effective_edge_mm": 1100.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MANTARAY 149",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1492.0,
+              "running_length_mm": 930.0,
+              "nose_width_mm": 302.2,
+              "waist_width_mm": 250.0,
+              "tail_width_mm": 281.0,
+              "sidecut_radius_m": 6950.0,
+              "setback_mm": -34.0,
+              "taper_mm": 10.6,
+              "stance_width_mm": "463-543",
+              "effective_edge_mm": 1144.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1492.0,
+              "running_length_mm": 930.0,
+              "nose_width_mm": 302.2,
+              "waist_width_mm": 250.0,
+              "tail_width_mm": 281.0,
+              "sidecut_radius_m": 6950.0,
+              "setback_mm": -34.0,
+              "taper_mm": 10.6,
+              "stance_width_mm": "463-543",
+              "effective_edge_mm": 1144.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1492.0,
+              "running_length_mm": 930.0,
+              "nose_width_mm": 302.2,
+              "waist_width_mm": 250.0,
+              "tail_width_mm": 281.0,
+              "sidecut_radius_m": 6950.0,
+              "setback_mm": -34.0,
+              "taper_mm": 10.6,
+              "stance_width_mm": "463-543",
+              "effective_edge_mm": 1144.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MANTARAY",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1540.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 312.0,
+              "waist_width_mm": 258.0,
+              "tail_width_mm": 290.0,
+              "sidecut_radius_m": 7150.0,
+              "setback_mm": -35.0,
+              "taper_mm": 11.0,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1180.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MANTARAY 156",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1564.0,
+              "running_length_mm": 965.0,
+              "nose_width_mm": 316.8,
+              "waist_width_mm": 262.0,
+              "tail_width_mm": 294.5,
+              "sidecut_radius_m": 7250.0,
+              "setback_mm": -35.5,
+              "taper_mm": 11.15,
+              "stance_width_mm": "527-607",
+              "effective_edge_mm": 1200.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1564.0,
+              "running_length_mm": 965.0,
+              "nose_width_mm": 316.8,
+              "waist_width_mm": 262.0,
+              "tail_width_mm": 294.5,
+              "sidecut_radius_m": 7250.0,
+              "setback_mm": -35.5,
+              "taper_mm": 11.15,
+              "stance_width_mm": "527-607",
+              "effective_edge_mm": 1200.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1564.0,
+              "running_length_mm": 965.0,
+              "nose_width_mm": 316.8,
+              "waist_width_mm": 262.0,
+              "tail_width_mm": 294.5,
+              "sidecut_radius_m": 7250.0,
+              "setback_mm": -35.5,
+              "taper_mm": 11.15,
+              "stance_width_mm": "527-607",
+              "effective_edge_mm": 1200.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MERMAID",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1510.0,
+              "running_length_mm": 1033.0,
+              "nose_width_mm": 292.0,
+              "waist_width_mm": 242.0,
+              "tail_width_mm": 260.0,
+              "sidecut_radius_m": 105006200.0,
+              "setback_mm": -27.0,
+              "taper_mm": 16.0,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1127.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1510.0,
+              "running_length_mm": 1033.0,
+              "nose_width_mm": 292.0,
+              "waist_width_mm": 242.0,
+              "tail_width_mm": 260.0,
+              "sidecut_radius_m": 105006200.0,
+              "setback_mm": -27.0,
+              "taper_mm": 16.0,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1127.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1510.0,
+              "running_length_mm": 1033.0,
+              "nose_width_mm": 292.0,
+              "waist_width_mm": 242.0,
+              "tail_width_mm": 260.0,
+              "sidecut_radius_m": 105006200.0,
+              "setback_mm": -27.0,
+              "taper_mm": 16.0,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1127.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MID FISH",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1520.0,
+              "running_length_mm": 995.0,
+              "nose_width_mm": 322.0,
+              "waist_width_mm": 270.0,
+              "tail_width_mm": 295.0,
+              "sidecut_radius_m": 8000.0,
+              "setback_mm": 26.0,
+              "taper_mm": 13.5,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1118.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1520.0,
+              "running_length_mm": 995.0,
+              "nose_width_mm": 322.0,
+              "waist_width_mm": 270.0,
+              "tail_width_mm": 295.0,
+              "sidecut_radius_m": 80005800.0,
+              "setback_mm": 19.5,
+              "taper_mm": 13.5,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1118.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1520.0,
+              "running_length_mm": 995.0,
+              "nose_width_mm": 322.0,
+              "waist_width_mm": 270.0,
+              "tail_width_mm": 295.0,
+              "sidecut_radius_m": 80005800.0,
+              "setback_mm": 19.5,
+              "taper_mm": 13.5,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1118.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MID FISH OUTLINE CORE",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1520.0,
+              "running_length_mm": 995.0,
+              "nose_width_mm": 322.0,
+              "waist_width_mm": 270.0,
+              "tail_width_mm": 295.0,
+              "sidecut_radius_m": 8000.0,
+              "setback_mm": 26.0,
+              "taper_mm": 13.5,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1118.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1520.0,
+              "running_length_mm": 995.0,
+              "nose_width_mm": 322.0,
+              "waist_width_mm": 270.0,
+              "tail_width_mm": 295.0,
+              "sidecut_radius_m": 80005800.0,
+              "setback_mm": 19.5,
+              "taper_mm": 13.5,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1118.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1520.0,
+              "running_length_mm": 995.0,
+              "nose_width_mm": 322.0,
+              "waist_width_mm": 270.0,
+              "tail_width_mm": 295.0,
+              "sidecut_radius_m": 80005800.0,
+              "setback_mm": 19.5,
+              "taper_mm": 13.5,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1118.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MOUNTAIN RACER",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1507.0,
+              "running_length_mm": 840.0,
+              "nose_width_mm": 305.0,
+              "waist_width_mm": 260.0,
+              "tail_width_mm": 275.0,
+              "sidecut_radius_m": 105007200.0,
+              "setback_mm": -40.0,
+              "taper_mm": 15.0,
+              "stance_width_mm": "500-580",
+              "effective_edge_mm": 1068.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1507.0,
+              "running_length_mm": 840.0,
+              "nose_width_mm": 305.0,
+              "waist_width_mm": 260.0,
+              "tail_width_mm": 275.0,
+              "sidecut_radius_m": 105007200.0,
+              "setback_mm": -40.0,
+              "taper_mm": 15.0,
+              "stance_width_mm": "500-580",
+              "effective_edge_mm": 1068.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1507.0,
+              "running_length_mm": 840.0,
+              "nose_width_mm": 305.0,
+              "waist_width_mm": 260.0,
+              "tail_width_mm": 275.0,
+              "sidecut_radius_m": 105007200.0,
+              "setback_mm": -40.0,
+              "taper_mm": 15.0,
+              "stance_width_mm": "500-580",
+              "effective_edge_mm": 1068.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ROCKET FISH",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1447.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 294.0,
+              "tail_width_mm": 311.0,
+              "sidecut_radius_m": 8100.0,
+              "setback_mm": 26.5,
+              "taper_mm": 16.5,
+              "stance_width_mm": "440-520",
+              "effective_edge_mm": 1063.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1447.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 294.0,
+              "tail_width_mm": 311.0,
+              "sidecut_radius_m": 8100.0,
+              "setback_mm": 26.5,
+              "taper_mm": 16.5,
+              "stance_width_mm": "440-520",
+              "effective_edge_mm": 1063.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1447.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 294.0,
+              "tail_width_mm": 311.0,
+              "sidecut_radius_m": 8100.0,
+              "setback_mm": 26.5,
+              "taper_mm": 16.5,
+              "stance_width_mm": "440-520",
+              "effective_edge_mm": 1063.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ROCKET FISH OUTLINE CORE",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1447.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 294.0,
+              "tail_width_mm": 311.0,
+              "sidecut_radius_m": 8100.0,
+              "setback_mm": 26.5,
+              "taper_mm": 16.5,
+              "stance_width_mm": "440-520",
+              "effective_edge_mm": 1063.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1447.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 294.0,
+              "tail_width_mm": 311.0,
+              "sidecut_radius_m": 8100.0,
+              "setback_mm": 26.5,
+              "taper_mm": 16.5,
+              "stance_width_mm": "440-520",
+              "effective_edge_mm": 1063.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1447.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 294.0,
+              "tail_width_mm": 311.0,
+              "sidecut_radius_m": 8100.0,
+              "setback_mm": 26.5,
+              "taper_mm": 16.5,
+              "stance_width_mm": "440-520",
+              "effective_edge_mm": 1063.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ROCKET FISH HIGH PERFORMANCE",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1447.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 330.0,
+              "waist_width_mm": 271.5,
+              "tail_width_mm": 287.0,
+              "sidecut_radius_m": 7900.0,
+              "setback_mm": 29.5,
+              "taper_mm": 21.5,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1063.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1447.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 330.0,
+              "waist_width_mm": 271.5,
+              "tail_width_mm": 287.0,
+              "sidecut_radius_m": 7900.0,
+              "setback_mm": 29.5,
+              "taper_mm": 21.5,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1063.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1447.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 330.0,
+              "waist_width_mm": 271.5,
+              "tail_width_mm": 287.0,
+              "sidecut_radius_m": 7900.0,
+              "setback_mm": 29.5,
+              "taper_mm": 21.5,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1063.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ROCKET FISH HIGH PERFORMANCE SOFT FLEX",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1447.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 330.0,
+              "waist_width_mm": 271.5,
+              "tail_width_mm": 287.0,
+              "sidecut_radius_m": 7900.0,
+              "setback_mm": 29.5,
+              "taper_mm": 21.5,
+              "stance_width_mm": "430-510",
+              "effective_edge_mm": 1063.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1447.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 330.0,
+              "waist_width_mm": 271.5,
+              "tail_width_mm": 287.0,
+              "sidecut_radius_m": 7900.0,
+              "setback_mm": 29.5,
+              "taper_mm": 21.5,
+              "stance_width_mm": "430-510",
+              "effective_edge_mm": 1063.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1447.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 330.0,
+              "waist_width_mm": 271.5,
+              "tail_width_mm": 287.0,
+              "sidecut_radius_m": 7900.0,
+              "setback_mm": 29.5,
+              "taper_mm": 21.5,
+              "stance_width_mm": "430-510",
+              "effective_edge_mm": 1063.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SLASHER II",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1670.0,
+              "running_length_mm": 1010.0,
+              "nose_width_mm": 304.0,
+              "waist_width_mm": 262.0,
+              "tail_width_mm": 294.0,
+              "sidecut_radius_m": 9200.0,
+              "setback_mm": -21.0,
+              "taper_mm": 5.0,
+              "stance_width_mm": "510-590",
+              "effective_edge_mm": 1222.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1670.0,
+              "running_length_mm": 1010.0,
+              "nose_width_mm": 304.0,
+              "waist_width_mm": 262.0,
+              "tail_width_mm": 294.0,
+              "sidecut_radius_m": 9200.0,
+              "setback_mm": -21.0,
+              "taper_mm": 5.0,
+              "stance_width_mm": "510-590",
+              "effective_edge_mm": 1222.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SPEEDMASTER",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1720.0,
+              "running_length_mm": 1114.0,
+              "nose_width_mm": 300.0,
+              "waist_width_mm": 250.0,
+              "tail_width_mm": 296.0,
+              "sidecut_radius_m": 80007600.0,
+              "setback_mm": -20.0,
+              "taper_mm": 2.0,
+              "stance_width_mm": "520-600",
+              "effective_edge_mm": 1320.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1720.0,
+              "running_length_mm": 1114.0,
+              "nose_width_mm": 300.0,
+              "waist_width_mm": 250.0,
+              "tail_width_mm": 296.0,
+              "sidecut_radius_m": 80007600.0,
+              "setback_mm": -20.0,
+              "taper_mm": 2.0,
+              "stance_width_mm": "520-600",
+              "effective_edge_mm": 1320.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1720.0,
+              "running_length_mm": 1114.0,
+              "nose_width_mm": 300.0,
+              "waist_width_mm": 250.0,
+              "tail_width_mm": 296.0,
+              "sidecut_radius_m": 80007600.0,
+              "setback_mm": -20.0,
+              "taper_mm": 2.0,
+              "stance_width_mm": "520-600",
+              "effective_edge_mm": 1320.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SPOON FISH",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1412.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 306.0,
+              "waist_width_mm": 254.0,
+              "tail_width_mm": 275.0,
+              "sidecut_radius_m": 78005400.0,
+              "setback_mm": -27.0,
+              "taper_mm": 15.5,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1043.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SPOON FISH 146",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1460.0,
+              "running_length_mm": 995.0,
+              "nose_width_mm": 302.0,
+              "waist_width_mm": 250.0,
+              "tail_width_mm": 270.0,
+              "sidecut_radius_m": 87005800.0,
+              "setback_mm": -29.0,
+              "taper_mm": 16.0,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1086.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1460.0,
+              "running_length_mm": 995.0,
+              "nose_width_mm": 302.0,
+              "waist_width_mm": 250.0,
+              "tail_width_mm": 270.0,
+              "sidecut_radius_m": 87005800.0,
+              "setback_mm": -29.0,
+              "taper_mm": 16.0,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1086.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1460.0,
+              "running_length_mm": 995.0,
+              "nose_width_mm": 302.0,
+              "waist_width_mm": 250.0,
+              "tail_width_mm": 270.0,
+              "sidecut_radius_m": 87005800.0,
+              "setback_mm": -29.0,
+              "taper_mm": 16.0,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1086.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SPOON FISH 152",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1520.0,
+              "running_length_mm": 1033.0,
+              "nose_width_mm": 306.0,
+              "waist_width_mm": 252.0,
+              "tail_width_mm": 272.0,
+              "sidecut_radius_m": 95006000.0,
+              "setback_mm": -30.0,
+              "taper_mm": 17.0,
+              "stance_width_mm": "470-570",
+              "effective_edge_mm": 1134.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1520.0,
+              "running_length_mm": 1033.0,
+              "nose_width_mm": 306.0,
+              "waist_width_mm": 252.0,
+              "tail_width_mm": 272.0,
+              "sidecut_radius_m": 95006000.0,
+              "setback_mm": -30.0,
+              "taper_mm": 17.0,
+              "stance_width_mm": "470-570",
+              "effective_edge_mm": 1134.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1520.0,
+              "running_length_mm": 1033.0,
+              "nose_width_mm": 306.0,
+              "waist_width_mm": 252.0,
+              "tail_width_mm": 272.0,
+              "sidecut_radius_m": 95006000.0,
+              "setback_mm": -30.0,
+              "taper_mm": 17.0,
+              "stance_width_mm": "470-570",
+              "effective_edge_mm": 1134.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "STINGRAY",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1550.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 306.0,
+              "waist_width_mm": 257.0,
+              "tail_width_mm": 282.0,
+              "sidecut_radius_m": 8600.0,
+              "setback_mm": -35.0,
+              "taper_mm": 12.0,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1180.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "STINGRAY CHOPSTICKS",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1550.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 306.0,
+              "waist_width_mm": 257.0,
+              "tail_width_mm": 282.0,
+              "sidecut_radius_m": 8600.0,
+              "setback_mm": -35.0,
+              "taper_mm": 12.0,
+              "stance_width_mm": "470-570",
+              "effective_edge_mm": 1180.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1550.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 306.0,
+              "waist_width_mm": 257.0,
+              "tail_width_mm": 282.0,
+              "sidecut_radius_m": 8600.0,
+              "setback_mm": -35.0,
+              "taper_mm": 12.0,
+              "stance_width_mm": "470-570",
+              "effective_edge_mm": 1180.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1550.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 306.0,
+              "waist_width_mm": 257.0,
+              "tail_width_mm": 282.0,
+              "sidecut_radius_m": 8600.0,
+              "setback_mm": -35.0,
+              "taper_mm": 12.0,
+              "stance_width_mm": "469-570",
+              "effective_edge_mm": 1180.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SUPER FISH",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1760.0,
+              "running_length_mm": 1156.0,
+              "nose_width_mm": 346.0,
+              "waist_width_mm": 268.5,
+              "tail_width_mm": 278.0,
+              "sidecut_radius_m": 10500.0,
+              "setback_mm": 23.0,
+              "taper_mm": 34.0,
+              "stance_width_mm": "520-620",
+              "effective_edge_mm": 1286.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1760.0,
+              "running_length_mm": 1156.0,
+              "nose_width_mm": 346.0,
+              "waist_width_mm": 268.5,
+              "tail_width_mm": 278.0,
+              "sidecut_radius_m": 10500.0,
+              "setback_mm": 23.0,
+              "taper_mm": 34.0,
+              "stance_width_mm": "520-620",
+              "effective_edge_mm": 1286.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1760.0,
+              "running_length_mm": 1156.0,
+              "nose_width_mm": 346.0,
+              "waist_width_mm": 268.5,
+              "tail_width_mm": 278.0,
+              "sidecut_radius_m": 10500.0,
+              "setback_mm": 23.0,
+              "taper_mm": 34.0,
+              "stance_width_mm": "520-620",
+              "effective_edge_mm": 1286.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SUPER FISH OUTLINE CORE",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1760.0,
+              "running_length_mm": 1156.0,
+              "nose_width_mm": 346.0,
+              "waist_width_mm": 268.5,
+              "tail_width_mm": 278.0,
+              "sidecut_radius_m": 10500.0,
+              "setback_mm": 23.0,
+              "taper_mm": 34.0,
+              "stance_width_mm": "520-620",
+              "effective_edge_mm": 1286.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1760.0,
+              "running_length_mm": 1156.0,
+              "nose_width_mm": 346.0,
+              "waist_width_mm": 268.5,
+              "tail_width_mm": 278.0,
+              "sidecut_radius_m": 10500.0,
+              "setback_mm": 23.0,
+              "taper_mm": 34.0,
+              "stance_width_mm": "520-620",
+              "effective_edge_mm": 1286.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1760.0,
+              "running_length_mm": 1156.0,
+              "nose_width_mm": 346.0,
+              "waist_width_mm": 268.5,
+              "tail_width_mm": 278.0,
+              "sidecut_radius_m": 10500.0,
+              "setback_mm": 23.0,
+              "taper_mm": 34.0,
+              "stance_width_mm": "520-620",
+              "effective_edge_mm": 1286.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SUPER FISH CLOUD LINER",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1760.0,
+              "running_length_mm": 1156.0,
+              "nose_width_mm": 346.0,
+              "waist_width_mm": 289.0,
+              "tail_width_mm": 307.0,
+              "sidecut_radius_m": 10500.0,
+              "setback_mm": 35.0,
+              "taper_mm": 19.5,
+              "stance_width_mm": "510-650",
+              "effective_edge_mm": 1280.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1760.0,
+              "running_length_mm": 1156.0,
+              "nose_width_mm": 346.0,
+              "waist_width_mm": 289.0,
+              "tail_width_mm": 307.0,
+              "sidecut_radius_m": 10500.0,
+              "setback_mm": 35.0,
+              "taper_mm": 19.5,
+              "stance_width_mm": "510-650",
+              "effective_edge_mm": 1280.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1760.0,
+              "running_length_mm": 1156.0,
+              "nose_width_mm": 346.0,
+              "waist_width_mm": 289.0,
+              "tail_width_mm": 307.0,
+              "sidecut_radius_m": 10500.0,
+              "setback_mm": 35.0,
+              "taper_mm": 19.5,
+              "stance_width_mm": "510-650",
+              "effective_edge_mm": 1280.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "THE CHASER",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1560.0,
+              "running_length_mm": 995.0,
+              "nose_width_mm": 346.0,
+              "waist_width_mm": 285.0,
+              "tail_width_mm": 299.0,
+              "sidecut_radius_m": 83007600.0,
+              "setback_mm": 0.0,
+              "taper_mm": 23.5,
+              "stance_width_mm": "510-590",
+              "effective_edge_mm": 1077.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1560.0,
+              "running_length_mm": 995.0,
+              "nose_width_mm": 346.0,
+              "waist_width_mm": 285.0,
+              "tail_width_mm": 299.0,
+              "sidecut_radius_m": 83007600.0,
+              "setback_mm": 0.0,
+              "taper_mm": 23.5,
+              "stance_width_mm": "510-590",
+              "effective_edge_mm": 1077.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1560.0,
+              "running_length_mm": 995.0,
+              "nose_width_mm": 346.0,
+              "waist_width_mm": 285.0,
+              "tail_width_mm": 299.0,
+              "sidecut_radius_m": 83007600.0,
+              "setback_mm": 0.0,
+              "taper_mm": 23.5,
+              "stance_width_mm": "510-590",
+              "effective_edge_mm": 1077.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "THE CHASER HIGH PERFORMANCE CHOPSTICKS",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1551.5,
+              "running_length_mm": 995.0,
+              "nose_width_mm": 330.0,
+              "waist_width_mm": 265.0,
+              "tail_width_mm": 279.0,
+              "sidecut_radius_m": 77707565.0,
+              "setback_mm": 5.5,
+              "taper_mm": 25.5,
+              "stance_width_mm": "495-620",
+              "effective_edge_mm": 1075.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1551.5,
+              "running_length_mm": 995.0,
+              "nose_width_mm": 330.0,
+              "waist_width_mm": 265.0,
+              "tail_width_mm": 279.0,
+              "sidecut_radius_m": 77707565.0,
+              "setback_mm": 5.5,
+              "taper_mm": 25.5,
+              "stance_width_mm": "495-620",
+              "effective_edge_mm": 1075.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1551.5,
+              "running_length_mm": 995.0,
+              "nose_width_mm": 330.0,
+              "waist_width_mm": 265.0,
+              "tail_width_mm": 279.0,
+              "sidecut_radius_m": 77707565.0,
+              "setback_mm": 5.5,
+              "taper_mm": 25.5,
+              "stance_width_mm": "495-596",
+              "effective_edge_mm": 1075.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "THE CHASER HIGH PERFORMANCE",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1551.5,
+              "running_length_mm": 995.0,
+              "nose_width_mm": 330.0,
+              "waist_width_mm": 265.0,
+              "tail_width_mm": 279.0,
+              "sidecut_radius_m": 77707565.0,
+              "setback_mm": 5.5,
+              "taper_mm": 25.5,
+              "stance_width_mm": "500-600",
+              "effective_edge_mm": 1075.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1551.5,
+              "running_length_mm": 995.0,
+              "nose_width_mm": 330.0,
+              "waist_width_mm": 265.0,
+              "tail_width_mm": 279.0,
+              "sidecut_radius_m": 77707565.0,
+              "setback_mm": 5.5,
+              "taper_mm": 25.5,
+              "stance_width_mm": "500-600",
+              "effective_edge_mm": 1075.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1551.5,
+              "running_length_mm": 995.0,
+              "nose_width_mm": 330.0,
+              "waist_width_mm": 265.0,
+              "tail_width_mm": 279.0,
+              "sidecut_radius_m": 77707565.0,
+              "setback_mm": 5.5,
+              "taper_mm": 25.5,
+              "stance_width_mm": "500-600",
+              "effective_edge_mm": 1075.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TITTI 118",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1180.0,
+              "running_length_mm": 710.0,
+              "nose_width_mm": 248.0,
+              "waist_width_mm": 210.0,
+              "tail_width_mm": 230.0,
+              "sidecut_radius_m": 6000.0,
+              "setback_mm": -39.0,
+              "taper_mm": 9.0,
+              "stance_width_mm": "370-450",
+              "effective_edge_mm": 882.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1180.0,
+              "running_length_mm": 710.0,
+              "nose_width_mm": 248.0,
+              "waist_width_mm": 210.0,
+              "tail_width_mm": 230.0,
+              "sidecut_radius_m": 6000.0,
+              "setback_mm": -39.0,
+              "taper_mm": 9.0,
+              "stance_width_mm": "370-450",
+              "effective_edge_mm": 882.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1180.0,
+              "running_length_mm": 710.0,
+              "nose_width_mm": 248.0,
+              "waist_width_mm": 210.0,
+              "tail_width_mm": 230.0,
+              "sidecut_radius_m": 6000.0,
+              "setback_mm": -39.0,
+              "stance_width_mm": "370-450",
+              "effective_edge_mm": 882.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TRINITYTomomi “Sheesa” Kuwahara Pro Model",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1560.0,
+              "running_length_mm": 1124.0,
+              "nose_width_mm": 288.0,
+              "waist_width_mm": 244.0,
+              "tail_width_mm": 274.0,
+              "sidecut_radius_m": 8500.0,
+              "setback_mm": -20.0,
+              "taper_mm": 7.0,
+              "stance_width_mm": "460-540",
+              "effective_edge_mm": 1160.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "T.T 158",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1580.0,
+              "running_length_mm": 942.0,
+              "nose_width_mm": 277.0,
+              "waist_width_mm": 243.0,
+              "tail_width_mm": 265.0,
+              "sidecut_radius_m": 11000.0,
+              "setback_mm": -13.0,
+              "taper_mm": 6.0,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1124.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1580.0,
+              "running_length_mm": 942.0,
+              "nose_width_mm": 277.0,
+              "waist_width_mm": 243.0,
+              "tail_width_mm": 265.0,
+              "sidecut_radius_m": 11000.0,
+              "setback_mm": -13.0,
+              "taper_mm": 6.0,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1124.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1580.0,
+              "running_length_mm": 942.0,
+              "nose_width_mm": 277.0,
+              "waist_width_mm": 243.0,
+              "tail_width_mm": 265.0,
+              "sidecut_radius_m": 11000.0,
+              "setback_mm": -13.0,
+              "taper_mm": 6.0,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1124.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "T.T 160",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1600.0,
+              "running_length_mm": 942.0,
+              "nose_width_mm": 287.0,
+              "waist_width_mm": 257.0,
+              "tail_width_mm": 280.0,
+              "sidecut_radius_m": 1150010500.0,
+              "setback_mm": -33.0,
+              "taper_mm": 3.5,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1138.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1600.0,
+              "running_length_mm": 942.0,
+              "nose_width_mm": 287.0,
+              "waist_width_mm": 257.0,
+              "tail_width_mm": 280.0,
+              "sidecut_radius_m": 1150010500.0,
+              "setback_mm": -33.0,
+              "taper_mm": 3.5,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1138.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1600.0,
+              "running_length_mm": 942.0,
+              "nose_width_mm": 287.0,
+              "waist_width_mm": 257.0,
+              "tail_width_mm": 280.0,
+              "sidecut_radius_m": 1150010500.0,
+              "setback_mm": -33.0,
+              "taper_mm": 3.5,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1138.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "T.T 165 CLASSIC",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1650.0,
+              "running_length_mm": 970.0,
+              "nose_width_mm": 277.0,
+              "waist_width_mm": 248.0,
+              "tail_width_mm": 272.0,
+              "sidecut_radius_m": 1284011450.0,
+              "setback_mm": -20.0,
+              "taper_mm": 2.5,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1174.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1650.0,
+              "running_length_mm": 970.0,
+              "nose_width_mm": 277.0,
+              "waist_width_mm": 248.0,
+              "tail_width_mm": 272.0,
+              "sidecut_radius_m": 1284011450.0,
+              "setback_mm": -20.0,
+              "taper_mm": 2.5,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1174.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1650.0,
+              "running_length_mm": 970.0,
+              "nose_width_mm": 277.0,
+              "waist_width_mm": 248.0,
+              "tail_width_mm": 272.0,
+              "sidecut_radius_m": 1284011450.0,
+              "setback_mm": -20.0,
+              "taper_mm": 2.5,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1174.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "T.T 165 CLASSIC WOMEN'S FLEX",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1650.0,
+              "running_length_mm": 970.0,
+              "nose_width_mm": 277.0,
+              "waist_width_mm": 248.0,
+              "tail_width_mm": 272.0,
+              "sidecut_radius_m": 1284011450.0,
+              "setback_mm": -20.0,
+              "taper_mm": 2.5,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1174.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1650.0,
+              "running_length_mm": 970.0,
+              "nose_width_mm": 277.0,
+              "waist_width_mm": 248.0,
+              "tail_width_mm": 272.0,
+              "sidecut_radius_m": 1284011450.0,
+              "setback_mm": -20.0,
+              "taper_mm": 2.5,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1174.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "T.T 168",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1680.0,
+              "running_length_mm": 990.0,
+              "nose_width_mm": 287.0,
+              "waist_width_mm": 257.0,
+              "tail_width_mm": 280.0,
+              "sidecut_radius_m": 1302011640.0,
+              "setback_mm": -17.5,
+              "taper_mm": 3.5,
+              "stance_width_mm": "510-590",
+              "effective_edge_mm": 1195.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1680.0,
+              "running_length_mm": 990.0,
+              "nose_width_mm": 287.0,
+              "waist_width_mm": 257.0,
+              "tail_width_mm": 280.0,
+              "sidecut_radius_m": 1302011640.0,
+              "setback_mm": -17.5,
+              "taper_mm": 3.5,
+              "stance_width_mm": "510-590",
+              "effective_edge_mm": 1195.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1680.0,
+              "running_length_mm": 990.0,
+              "nose_width_mm": 287.0,
+              "waist_width_mm": 257.0,
+              "tail_width_mm": 280.0,
+              "sidecut_radius_m": 1302011640.0,
+              "setback_mm": -17.5,
+              "taper_mm": 3.5,
+              "stance_width_mm": "510-590",
+              "effective_edge_mm": 1195.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XY 153",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1530.0,
+              "running_length_mm": 1020.0,
+              "nose_width_mm": 310.0,
+              "waist_width_mm": 262.0,
+              "tail_width_mm": 290.0,
+              "sidecut_radius_m": 8200.0,
+              "setback_mm": -38.0,
+              "taper_mm": 10.0,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1152.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1530.0,
+              "running_length_mm": 1020.0,
+              "nose_width_mm": 310.0,
+              "waist_width_mm": 262.0,
+              "tail_width_mm": 290.0,
+              "sidecut_radius_m": 8200.0,
+              "setback_mm": -38.0,
+              "taper_mm": 10.0,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1152.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1530.0,
+              "running_length_mm": 1020.0,
+              "nose_width_mm": 310.0,
+              "waist_width_mm": 262.0,
+              "tail_width_mm": 290.0,
+              "sidecut_radius_m": 8200.0,
+              "setback_mm": -38.0,
+              "taper_mm": 10.0,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1152.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XYAlex Yoder Pro Model",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1573.0,
+              "running_length_mm": 1080.0,
+              "nose_width_mm": 319.7,
+              "waist_width_mm": 269.6,
+              "tail_width_mm": 297.0,
+              "sidecut_radius_m": 8500.0,
+              "setback_mm": -18.0,
+              "taper_mm": 11.35,
+              "stance_width_mm": "500-600",
+              "effective_edge_mm": 1184.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XYZ CHOPSTICKS",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1573.0,
+              "running_length_mm": 1080.0,
+              "nose_width_mm": 320.0,
+              "waist_width_mm": 270.0,
+              "tail_width_mm": 297.0,
+              "sidecut_radius_m": 8500.0,
+              "setback_mm": -5.0,
+              "taper_mm": 11.5,
+              "stance_width_mm": "480-610",
+              "effective_edge_mm": 1184.0
+            }
+          ]
+        },
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1573.0,
+              "running_length_mm": 1080.0,
+              "nose_width_mm": 320.0,
+              "waist_width_mm": 270.0,
+              "tail_width_mm": 297.0,
+              "sidecut_radius_m": 8500.0,
+              "setback_mm": -18.0,
+              "taper_mm": 11.5,
+              "stance_width_mm": "480-610",
+              "effective_edge_mm": 1184.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1573.0,
+              "running_length_mm": 1080.0,
+              "nose_width_mm": 320.0,
+              "waist_width_mm": 270.0,
+              "tail_width_mm": 297.0,
+              "sidecut_radius_m": 8500.0,
+              "setback_mm": -18.0,
+              "taper_mm": 11.5,
+              "stance_width_mm": "509-610",
+              "effective_edge_mm": 1184.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ZEPHYR 160",
+      "versions": [
+        {
+          "year": "23-24",
+          "sizes": [
+            {
+              "length_mm": 1605.0,
+              "running_length_mm": 1124.0,
+              "nose_width_mm": 298.0,
+              "waist_width_mm": 258.0,
+              "tail_width_mm": 288.0,
+              "sidecut_radius_m": 9800.0,
+              "setback_mm": 0.5,
+              "taper_mm": 5.0,
+              "stance_width_mm": "515-595",
+              "effective_edge_mm": 1230.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BABY MANTARAY 148",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1480.0,
+              "running_length_mm": 920.0,
+              "nose_width_mm": 297.0,
+              "waist_width_mm": 246.0,
+              "tail_width_mm": 276.0,
+              "sidecut_radius_m": 7180.0,
+              "setback_mm": -59.0,
+              "taper_mm": 10.5,
+              "stance_width_mm": "460-540",
+              "effective_edge_mm": 1144.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1480.0,
+              "running_length_mm": 920.0,
+              "nose_width_mm": 297.0,
+              "waist_width_mm": 246.0,
+              "tail_width_mm": 276.0,
+              "sidecut_radius_m": 7180.0,
+              "setback_mm": -59.0,
+              "taper_mm": 10.5,
+              "stance_width_mm": "460-540",
+              "effective_edge_mm": 1144.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BABY MANTARAY 148 HARD FLEX",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1480.0,
+              "running_length_mm": 920.0,
+              "nose_width_mm": 297.0,
+              "waist_width_mm": 246.0,
+              "tail_width_mm": 276.0,
+              "sidecut_radius_m": 7180.0,
+              "setback_mm": -59.0,
+              "taper_mm": 10.5,
+              "stance_width_mm": "460-540",
+              "effective_edge_mm": 1144.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1480.0,
+              "running_length_mm": 920.0,
+              "nose_width_mm": 297.0,
+              "waist_width_mm": 246.0,
+              "tail_width_mm": 276.0,
+              "sidecut_radius_m": 7180.0,
+              "setback_mm": -59.0,
+              "taper_mm": 10.5,
+              "stance_width_mm": "460-540",
+              "effective_edge_mm": 1144.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BABY STINGRAY 151",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1510.0,
+              "running_length_mm": 930.0,
+              "nose_width_mm": 298.5,
+              "waist_width_mm": 248.9,
+              "tail_width_mm": 275.5,
+              "sidecut_radius_m": 7700.0,
+              "setback_mm": -33.5,
+              "taper_mm": 11.5,
+              "stance_width_mm": "467-547",
+              "effective_edge_mm": 1150.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1510.0,
+              "running_length_mm": 930.0,
+              "nose_width_mm": 298.5,
+              "waist_width_mm": 248.9,
+              "tail_width_mm": 275.5,
+              "sidecut_radius_m": 7700.0,
+              "setback_mm": -33.5,
+              "taper_mm": 11.5,
+              "stance_width_mm": "467-547",
+              "effective_edge_mm": 1150.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FLOATER",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1626.0,
+              "running_length_mm": 1124.0,
+              "nose_width_mm": 298.0,
+              "waist_width_mm": 255.0,
+              "tail_width_mm": 283.0,
+              "sidecut_radius_m": 9200.0,
+              "setback_mm": -40.0,
+              "taper_mm": 7.5,
+              "stance_width_mm": "510-590",
+              "effective_edge_mm": 1190.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1626.0,
+              "running_length_mm": 1124.0,
+              "nose_width_mm": 298.0,
+              "waist_width_mm": 255.0,
+              "tail_width_mm": 283.0,
+              "sidecut_radius_m": 9200.0,
+              "setback_mm": -40.0,
+              "taper_mm": 7.5,
+              "stance_width_mm": "510-590",
+              "effective_edge_mm": 1190.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FLOATER uni",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1530.0,
+              "running_length_mm": 1057.0,
+              "nose_width_mm": 281.0,
+              "waist_width_mm": 241.0,
+              "tail_width_mm": 269.0,
+              "sidecut_radius_m": 8500.0,
+              "setback_mm": -37.5,
+              "taper_mm": 6.0,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1120.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1530.0,
+              "running_length_mm": 1057.0,
+              "nose_width_mm": 281.0,
+              "waist_width_mm": 241.0,
+              "tail_width_mm": 269.0,
+              "sidecut_radius_m": 8500.0,
+              "setback_mm": -37.5,
+              "taper_mm": 6.0,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1120.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GIANT MANTARAY 159",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1590.0,
+              "running_length_mm": 979.0,
+              "nose_width_mm": 321.0,
+              "waist_width_mm": 266.0,
+              "tail_width_mm": 299.0,
+              "sidecut_radius_m": 7350.0,
+              "setback_mm": -47.0,
+              "taper_mm": 11.0,
+              "stance_width_mm": "534-614",
+              "effective_edge_mm": 1216.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1590.0,
+              "running_length_mm": 979.0,
+              "nose_width_mm": 321.0,
+              "waist_width_mm": 266.0,
+              "tail_width_mm": 299.0,
+              "sidecut_radius_m": 7350.0,
+              "setback_mm": -47.0,
+              "taper_mm": 11.0,
+              "stance_width_mm": "534-614",
+              "effective_edge_mm": 1216.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MANTARAY 154",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1540.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 312.0,
+              "waist_width_mm": 258.0,
+              "tail_width_mm": 290.0,
+              "sidecut_radius_m": 7150.0,
+              "setback_mm": -35.0,
+              "taper_mm": 11.0,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1180.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1540.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 312.0,
+              "waist_width_mm": 258.0,
+              "tail_width_mm": 290.0,
+              "sidecut_radius_m": 7150.0,
+              "setback_mm": -35.0,
+              "taper_mm": 11.0,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1180.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SPOON FISH 141",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1412.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 306.0,
+              "waist_width_mm": 254.0,
+              "tail_width_mm": 275.0,
+              "sidecut_radius_m": 78005400.0,
+              "setback_mm": -27.0,
+              "taper_mm": 15.5,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1043.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1412.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 306.0,
+              "waist_width_mm": 254.0,
+              "tail_width_mm": 275.0,
+              "sidecut_radius_m": 78005400.0,
+              "setback_mm": -27.0,
+              "taper_mm": 15.5,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1043.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "STINGRAY 155",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1550.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 306.0,
+              "waist_width_mm": 257.0,
+              "tail_width_mm": 282.0,
+              "sidecut_radius_m": 8600.0,
+              "setback_mm": -35.0,
+              "taper_mm": 12.0,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1180.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1550.0,
+              "running_length_mm": 950.0,
+              "nose_width_mm": 306.0,
+              "waist_width_mm": 257.0,
+              "tail_width_mm": 282.0,
+              "sidecut_radius_m": 8600.0,
+              "setback_mm": -35.0,
+              "taper_mm": 12.0,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1180.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TRINITY",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1560.0,
+              "running_length_mm": 1124.0,
+              "nose_width_mm": 288.0,
+              "waist_width_mm": 244.0,
+              "tail_width_mm": 274.0,
+              "sidecut_radius_m": 8500.0,
+              "setback_mm": -20.0,
+              "taper_mm": 7.0,
+              "stance_width_mm": "460-540",
+              "effective_edge_mm": 1160.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1560.0,
+              "running_length_mm": 1124.0,
+              "nose_width_mm": 288.0,
+              "waist_width_mm": 244.0,
+              "tail_width_mm": 274.0,
+              "sidecut_radius_m": 8500.0,
+              "setback_mm": -20.0,
+              "taper_mm": 7.0,
+              "stance_width_mm": "460-540",
+              "effective_edge_mm": 1160.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XY 157Alex Yoder Pro Model",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1573.0,
+              "running_length_mm": 1080.0,
+              "nose_width_mm": 320.0,
+              "waist_width_mm": 270.0,
+              "tail_width_mm": 297.0,
+              "sidecut_radius_m": 8500.0,
+              "setback_mm": -18.0,
+              "taper_mm": 11.5,
+              "stance_width_mm": "500-600",
+              "effective_edge_mm": 1184.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ZEPHYR",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 1605.0,
+              "running_length_mm": 1124.0,
+              "nose_width_mm": 298.0,
+              "waist_width_mm": 258.0,
+              "tail_width_mm": 288.0,
+              "sidecut_radius_m": 9800.0,
+              "setback_mm": 0.5,
+              "taper_mm": 5.0,
+              "stance_width_mm": "515-595",
+              "effective_edge_mm": 1230.0
+            }
+          ]
+        },
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1605.0,
+              "running_length_mm": 1124.0,
+              "nose_width_mm": 298.0,
+              "waist_width_mm": 258.0,
+              "tail_width_mm": 288.0,
+              "sidecut_radius_m": 9800.0,
+              "setback_mm": 0.5,
+              "taper_mm": 5.0,
+              "stance_width_mm": "515-595",
+              "effective_edge_mm": 1230.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ALOHA NOKAOI",
+      "versions": [
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1570.0,
+              "running_length_mm": 914.0,
+              "nose_width_mm": 313.0,
+              "waist_width_mm": 264.0,
+              "tail_width_mm": 284.0,
+              "sidecut_radius_m": 99507000.0,
+              "setback_mm": -25.0,
+              "taper_mm": 14.5,
+              "stance_width_mm": "480-560",
+              "effective_edge_mm": 1117.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FLY FISK",
+      "versions": [
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1640.0,
+              "running_length_mm": 1033.0,
+              "nose_width_mm": 344.0,
+              "waist_width_mm": 287.0,
+              "tail_width_mm": 302.0,
+              "sidecut_radius_m": 9000.0,
+              "setback_mm": 0.0,
+              "taper_mm": 21.0,
+              "stance_width_mm": "540-660",
+              "effective_edge_mm": 1133.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GIANT MANTARAY CHOPSTICKS PRO",
+      "versions": [
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1590.0,
+              "running_length_mm": 979.0,
+              "nose_width_mm": 321.0,
+              "waist_width_mm": 266.0,
+              "tail_width_mm": 299.0,
+              "sidecut_radius_m": 7350.0,
+              "setback_mm": -47.0,
+              "taper_mm": 11.0,
+              "stance_width_mm": "508-610",
+              "effective_edge_mm": 1216.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "POWDERSTICK FISH",
+      "versions": [
+        {
+          "year": "25-26",
+          "sizes": []
+        }
+      ]
+    },
+    {
+      "name": "SLASHER Ⅱ",
+      "versions": [
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1670.0,
+              "running_length_mm": 1010.0,
+              "nose_width_mm": 304.0,
+              "waist_width_mm": 262.0,
+              "tail_width_mm": 294.0,
+              "sidecut_radius_m": 9200.0,
+              "setback_mm": -21.0,
+              "taper_mm": 5.0,
+              "stance_width_mm": "510-590",
+              "effective_edge_mm": 1222.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "T.T 165 CLASSIC SOFT FLEX",
+      "versions": [
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1650.0,
+              "running_length_mm": 970.0,
+              "nose_width_mm": 277.0,
+              "waist_width_mm": 248.0,
+              "tail_width_mm": 272.0,
+              "sidecut_radius_m": 1284011450.0,
+              "setback_mm": -20.0,
+              "taper_mm": 2.5,
+              "stance_width_mm": "450-530",
+              "effective_edge_mm": 1174.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XY 157",
+      "versions": [
+        {
+          "year": "25-26",
+          "sizes": [
+            {
+              "length_mm": 1573.0,
+              "running_length_mm": 1080.0,
+              "nose_width_mm": 320.0,
+              "waist_width_mm": 270.0,
+              "tail_width_mm": 297.0,
+              "sidecut_radius_m": 8500.0,
+              "setback_mm": -18.0,
+              "taper_mm": 11.5,
+              "stance_width_mm": "500-600",
+              "effective_edge_mm": 1184.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "24-25 BACKCITY",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 148,
+              "effective_edge_mm": 1020,
+              "running_length_mm": 900,
+              "nose_width_mm": 295,
+              "waist_width_mm": 246,
+              "tail_width_mm": 274,
+              "sidecut_radius_m": "7.2-5.7",
+              "taper_mm": 21,
+              "stance_width_mm": 46
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "24-25",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 152,
+              "effective_edge_mm": 1050,
+              "running_length_mm": 930,
+              "nose_width_mm": 299,
+              "waist_width_mm": 250,
+              "tail_width_mm": 278,
+              "sidecut_radius_m": "7.5-6.0",
+              "taper_mm": 21,
+              "stance_width_mm": 48
+            },
+            {
+              "length_mm": 154,
+              "effective_edge_mm": 1055,
+              "running_length_mm": 930,
+              "nose_width_mm": 308,
+              "waist_width_mm": 259,
+              "tail_width_mm": 286,
+              "sidecut_radius_m": "7.8-6.3",
+              "taper_mm": 22,
+              "stance_width_mm": 52
+            },
+            {
+              "length_mm": 158,
+              "effective_edge_mm": 1085,
+              "running_length_mm": 955,
+              "nose_width_mm": 310,
+              "waist_width_mm": 261,
+              "tail_width_mm": 288,
+              "sidecut_radius_m": "8.2-6.7",
+              "taper_mm": 22,
+              "stance_width_mm": 54
+            },
+            {
+              "length_mm": 162,
+              "effective_edge_mm": 1120,
+              "running_length_mm": 1005,
+              "nose_width_mm": 312,
+              "waist_width_mm": 263,
+              "tail_width_mm": 290,
+              "sidecut_radius_m": "8.6-7.1",
+              "taper_mm": 22,
+              "stance_width_mm": 56
+            },
+            {
+              "length_mm": 144,
+              "effective_edge_mm": 1050,
+              "running_length_mm": 900,
+              "nose_width_mm": 293,
+              "waist_width_mm": 245,
+              "tail_width_mm": 276,
+              "sidecut_radius_m": "6.8-6.1",
+              "taper_mm": 17,
+              "stance_width_mm": 48
+            },
+            {
+              "length_mm": 149,
+              "effective_edge_mm": 1080,
+              "running_length_mm": 930,
+              "nose_width_mm": 308,
+              "waist_width_mm": 258,
+              "tail_width_mm": 288,
+              "sidecut_radius_m": "7.0-6.35",
+              "taper_mm": 20,
+              "stance_width_mm": 54
+            },
+            {
+              "length_mm": 154,
+              "effective_edge_mm": 1130,
+              "running_length_mm": 955,
+              "nose_width_mm": 312,
+              "waist_width_mm": 261,
+              "tail_width_mm": 292,
+              "sidecut_radius_m": "7.6-7.0",
+              "taper_mm": 20,
+              "stance_width_mm": 56
+            },
+            {
+              "length_mm": 148,
+              "effective_edge_mm": 1130,
+              "running_length_mm": 1030,
+              "nose_width_mm": 292,
+              "waist_width_mm": 246,
+              "tail_width_mm": 284,
+              "sidecut_radius_m": "7.6-6.6",
+              "taper_mm": 8,
+              "stance_width_mm": 48
+            },
+            {
+              "length_mm": 150,
+              "effective_edge_mm": 1150,
+              "running_length_mm": 1060,
+              "nose_width_mm": 299,
+              "waist_width_mm": 252,
+              "tail_width_mm": 291,
+              "sidecut_radius_m": "7.8-6.8",
+              "taper_mm": 8,
+              "stance_width_mm": 52
+            },
+            {
+              "length_mm": 154,
+              "effective_edge_mm": 1180,
+              "running_length_mm": 1090,
+              "nose_width_mm": 303,
+              "waist_width_mm": 256,
+              "tail_width_mm": 295,
+              "sidecut_radius_m": "8.2-7.2",
+              "taper_mm": 8,
+              "stance_width_mm": 54
+            },
+            {
+              "length_mm": 158,
+              "effective_edge_mm": 1220,
+              "running_length_mm": 1130,
+              "nose_width_mm": 307,
+              "waist_width_mm": 260,
+              "tail_width_mm": 299,
+              "sidecut_radius_m": "8.7-7.7",
+              "taper_mm": 8,
+              "stance_width_mm": 56
+            },
+            {
+              "length_mm": 154,
+              "effective_edge_mm": 1200,
+              "running_length_mm": 1160,
+              "nose_width_mm": 291,
+              "waist_width_mm": 248,
+              "tail_width_mm": 291,
+              "sidecut_radius_m": "11.0-7.2-11.0",
+              "taper_mm": 0,
+              "stance_width_mm": "52/56"
+            },
+            {
+              "length_mm": 156,
+              "effective_edge_mm": 1220,
+              "running_length_mm": 1180,
+              "nose_width_mm": 293.5,
+              "waist_width_mm": 250,
+              "tail_width_mm": 293.5,
+              "sidecut_radius_m": "11.3-7.3-11.3",
+              "taper_mm": 0,
+              "stance_width_mm": "54/58"
+            },
+            {
+              "length_mm": 145,
+              "effective_edge_mm": 1090,
+              "running_length_mm": 1050,
+              "nose_width_mm": 275,
+              "waist_width_mm": 236.5,
+              "tail_width_mm": 275,
+              "sidecut_radius_m": "6.95-7.3-6.95",
+              "taper_mm": 0,
+              "stance_width_mm": 46
+            },
+            {
+              "length_mm": 148,
+              "effective_edge_mm": 1130,
+              "running_length_mm": 1090,
+              "nose_width_mm": 278,
+              "waist_width_mm": 238,
+              "tail_width_mm": 278,
+              "sidecut_radius_m": "7.25-7.6-7.25",
+              "taper_mm": 0,
+              "stance_width_mm": 48
+            },
+            {
+              "length_mm": 151,
+              "effective_edge_mm": 1160,
+              "running_length_mm": 1120,
+              "nose_width_mm": 281.5,
+              "waist_width_mm": 241,
+              "tail_width_mm": 281.5,
+              "sidecut_radius_m": "7.55-7.9-7.55",
+              "taper_mm": 0,
+              "stance_width_mm": 50
+            },
+            {
+              "length_mm": 150,
+              "effective_edge_mm": 1160,
+              "running_length_mm": 1120,
+              "nose_width_mm": 287,
+              "waist_width_mm": 246,
+              "tail_width_mm": 287,
+              "sidecut_radius_m": "7.6-8.0-7.6",
+              "taper_mm": 0,
+              "stance_width_mm": 52
+            },
+            {
+              "length_mm": 153,
+              "effective_edge_mm": 1180,
+              "running_length_mm": 1140,
+              "nose_width_mm": 289,
+              "waist_width_mm": 248,
+              "tail_width_mm": 289,
+              "sidecut_radius_m": "7.75-8.1-7.75",
+              "taper_mm": 0,
+              "stance_width_mm": 54
+            },
+            {
+              "length_mm": 156,
+              "effective_edge_mm": 1200,
+              "running_length_mm": 1160,
+              "nose_width_mm": 291,
+              "waist_width_mm": 250,
+              "tail_width_mm": 291,
+              "sidecut_radius_m": "8.05-8.4-8.05",
+              "taper_mm": 0,
+              "stance_width_mm": 56
+            },
+            {
+              "length_mm": 159,
+              "effective_edge_mm": 1220,
+              "running_length_mm": 1180,
+              "nose_width_mm": 294,
+              "waist_width_mm": 253,
+              "tail_width_mm": 294,
+              "sidecut_radius_m": "8.35-8.7-8.35",
+              "taper_mm": 0,
+              "stance_width_mm": 58
+            },
+            {
+              "length_mm": 142,
+              "effective_edge_mm": 1090,
+              "running_length_mm": 1050,
+              "nose_width_mm": 272.5,
+              "waist_width_mm": 234,
+              "tail_width_mm": 272.5,
+              "sidecut_radius_m": "7.9-7.7-7.5-7.3-7.5-7.7-7.9",
+              "taper_mm": 0,
+              "stance_width_mm": "46/50"
+            },
+            {
+              "length_mm": 146,
+              "effective_edge_mm": 1110,
+              "running_length_mm": 1070,
+              "nose_width_mm": 277,
+              "waist_width_mm": 238,
+              "tail_width_mm": 277,
+              "sidecut_radius_m": "8.0-7.8-7.6-7.5-7.6-7.8-8.0",
+              "taper_mm": 0,
+              "stance_width_mm": "48/52"
+            },
+            {
+              "length_mm": 148,
+              "effective_edge_mm": 1130,
+              "running_length_mm": 1090,
+              "nose_width_mm": 281.5,
+              "waist_width_mm": 242,
+              "tail_width_mm": 281.5,
+              "sidecut_radius_m": "8.2-8.0-7.8-7.7-7.8-8.0-8.2",
+              "taper_mm": 0,
+              "stance_width_mm": "48/52"
+            },
+            {
+              "length_mm": 150,
+              "effective_edge_mm": 1160,
+              "running_length_mm": 1120,
+              "nose_width_mm": 285,
+              "waist_width_mm": 245,
+              "tail_width_mm": 285,
+              "sidecut_radius_m": "8.6-8.4-8.2-8.0-8.2-8.4-8.6",
+              "taper_mm": 0,
+              "stance_width_mm": "52/56"
+            },
+            {
+              "length_mm": 152,
+              "effective_edge_mm": 1180,
+              "running_length_mm": 1140,
+              "nose_width_mm": 287.5,
+              "waist_width_mm": 247,
+              "tail_width_mm": 287.5,
+              "sidecut_radius_m": "8.8-8.6-8.4-8.2-8.4-8.6-8.8",
+              "taper_mm": 0,
+              "stance_width_mm": "52/56"
+            },
+            {
+              "length_mm": 154,
+              "effective_edge_mm": 1200,
+              "running_length_mm": 1160,
+              "nose_width_mm": 290,
+              "waist_width_mm": 249,
+              "tail_width_mm": 290,
+              "sidecut_radius_m": "9.0-8.8-8.6-8.4-8.6-8.8-9.0",
+              "taper_mm": 0,
+              "stance_width_mm": "54/58"
+            },
+            {
+              "length_mm": 158,
+              "effective_edge_mm": 1240,
+              "running_length_mm": 1200,
+              "nose_width_mm": 293,
+              "waist_width_mm": 251,
+              "tail_width_mm": 293,
+              "sidecut_radius_m": "9.3-9.1-8.9-8.8-8.9-9.1-9.3",
+              "taper_mm": 0,
+              "stance_width_mm": "54/58"
+            },
+            {
+              "length_mm": "154W",
+              "effective_edge_mm": 1200,
+              "running_length_mm": 1160,
+              "nose_width_mm": 297,
+              "waist_width_mm": 256,
+              "tail_width_mm": 297,
+              "sidecut_radius_m": "9.0-8.8-8.6-8.4-8.6-8.8-9.0",
+              "taper_mm": 0,
+              "stance_width_mm": "54/58"
+            },
+            {
+              "length_mm": "158W",
+              "effective_edge_mm": 1240,
+              "running_length_mm": 1200,
+              "nose_width_mm": 300,
+              "waist_width_mm": 258,
+              "tail_width_mm": 300,
+              "sidecut_radius_m": "9.3-9.1-8.9-8.8-8.9-9.1-9.3",
+              "taper_mm": 0,
+              "stance_width_mm": "54/58"
+            },
+            {
+              "length_mm": 150,
+              "effective_edge_mm": 1160,
+              "running_length_mm": 1120,
+              "nose_width_mm": 287,
+              "waist_width_mm": 246,
+              "tail_width_mm": 287,
+              "sidecut_radius_m": "7.8-20.0-6.8-20.0-7.8",
+              "taper_mm": 0,
+              "stance_width_mm": 54
+            },
+            {
+              "length_mm": 142,
+              "effective_edge_mm": 1090,
+              "running_length_mm": 1050,
+              "nose_width_mm": 274,
+              "waist_width_mm": 234,
+              "tail_width_mm": 274,
+              "sidecut_radius_m": "7.1-18.0-6.1-18.0-7.1",
+              "taper_mm": 0,
+              "stance_width_mm": 48
+            },
+            {
+              "length_mm": 146,
+              "effective_edge_mm": 1130,
+              "running_length_mm": 1090,
+              "nose_width_mm": 279,
+              "waist_width_mm": 238,
+              "tail_width_mm": 279,
+              "sidecut_radius_m": "7.5-18.0-6.5-18.0-7.5",
+              "taper_mm": 0,
+              "stance_width_mm": 50
+            },
+            {
+              "length_mm": 147,
+              "effective_edge_mm": 1130,
+              "running_length_mm": 1090,
+              "nose_width_mm": 285,
+              "waist_width_mm": 244,
+              "tail_width_mm": 285,
+              "sidecut_radius_m": "7.6-18.0-6.6-18.0-7.6",
+              "taper_mm": 0,
+              "stance_width_mm": 52
+            },
+            {
+              "length_mm": 150,
+              "effective_edge_mm": 1160,
+              "running_length_mm": 1120,
+              "nose_width_mm": 287,
+              "waist_width_mm": 246,
+              "tail_width_mm": 287,
+              "sidecut_radius_m": "7.8-20.0-6.8-20.0-7.8",
+              "taper_mm": 0,
+              "stance_width_mm": 54
+            },
+            {
+              "length_mm": 152,
+              "effective_edge_mm": 1180,
+              "running_length_mm": 1140,
+              "nose_width_mm": 290,
+              "waist_width_mm": 248,
+              "tail_width_mm": 290,
+              "sidecut_radius_m": "8.0-20.0-7.0-20.0-8.0",
+              "taper_mm": 0,
+              "stance_width_mm": 55
+            },
+            {
+              "length_mm": 154,
+              "effective_edge_mm": 1200,
+              "running_length_mm": 1160,
+              "nose_width_mm": 292,
+              "waist_width_mm": 250,
+              "tail_width_mm": 292,
+              "sidecut_radius_m": "8.3-20.0-7.3-20.0-8.3",
+              "taper_mm": 0,
+              "stance_width_mm": 56
+            },
+            {
+              "length_mm": 156,
+              "effective_edge_mm": 1220,
+              "running_length_mm": 1180,
+              "nose_width_mm": 294,
+              "waist_width_mm": 252,
+              "tail_width_mm": 294,
+              "sidecut_radius_m": "8.5-20.0-7.5-20.0-8.5",
+              "taper_mm": 0,
+              "stance_width_mm": 58
+            },
+            {
+              "length_mm": 142,
+              "effective_edge_mm": 1090,
+              "running_length_mm": 1050,
+              "nose_width_mm": 274,
+              "waist_width_mm": 234,
+              "tail_width_mm": 274,
+              "sidecut_radius_m": "7.1-18.0-6.1-18.0-7.1",
+              "taper_mm": 0,
+              "stance_width_mm": 48
+            },
+            {
+              "length_mm": 147,
+              "effective_edge_mm": 1130,
+              "running_length_mm": 1090,
+              "nose_width_mm": 285,
+              "waist_width_mm": 244,
+              "tail_width_mm": 285,
+              "sidecut_radius_m": "7.6-18.0-6.6-18.0-7.6",
+              "taper_mm": 0,
+              "stance_width_mm": 52
+            },
+            {
+              "length_mm": 150,
+              "effective_edge_mm": 1160,
+              "running_length_mm": 1120,
+              "nose_width_mm": 287,
+              "waist_width_mm": 246,
+              "tail_width_mm": 287,
+              "sidecut_radius_m": "7.8-20.0-6.8-20.0-7.8",
+              "taper_mm": 0,
+              "stance_width_mm": 54
+            },
+            {
+              "length_mm": 152,
+              "effective_edge_mm": 1180,
+              "running_length_mm": 1140,
+              "nose_width_mm": 290,
+              "waist_width_mm": 248,
+              "tail_width_mm": 290,
+              "sidecut_radius_m": "8.0-20.0-7.0-20.0-8.0",
+              "taper_mm": 0,
+              "stance_width_mm": 55
+            },
+            {
+              "length_mm": 142,
+              "effective_edge_mm": 1090,
+              "running_length_mm": 1050,
+              "nose_width_mm": 274,
+              "waist_width_mm": 234,
+              "tail_width_mm": 274,
+              "sidecut_radius_m": "7.1-18.0-6.1-18.0-7.1",
+              "taper_mm": 0,
+              "stance_width_mm": 48
+            },
+            {
+              "length_mm": 146,
+              "effective_edge_mm": 1130,
+              "running_length_mm": 1090,
+              "nose_width_mm": 279,
+              "waist_width_mm": 238,
+              "tail_width_mm": 279,
+              "sidecut_radius_m": "7.5-18.0-6.5-18.0-7.5",
+              "taper_mm": 0,
+              "stance_width_mm": 50
+            },
+            {
+              "length_mm": 147,
+              "effective_edge_mm": 1130,
+              "running_length_mm": 1090,
+              "nose_width_mm": 285,
+              "waist_width_mm": 244,
+              "tail_width_mm": 285,
+              "sidecut_radius_m": "7.6-18.0-6.6-18.0-7.6",
+              "taper_mm": 0,
+              "stance_width_mm": 52
+            },
+            {
+              "length_mm": 150,
+              "effective_edge_mm": 1160,
+              "running_length_mm": 1120,
+              "nose_width_mm": 287,
+              "waist_width_mm": 246,
+              "tail_width_mm": 287,
+              "sidecut_radius_m": "7.8-20.0-6.8-20.0-7.8",
+              "taper_mm": 0,
+              "stance_width_mm": 54
+            },
+            {
+              "length_mm": 152,
+              "effective_edge_mm": 1180,
+              "running_length_mm": 1140,
+              "nose_width_mm": 290,
+              "waist_width_mm": 248,
+              "tail_width_mm": 290,
+              "sidecut_radius_m": "8.0-20.0-7.0-20.0-8.0",
+              "taper_mm": 0,
+              "stance_width_mm": 55
+            },
+            {
+              "length_mm": 154,
+              "effective_edge_mm": 1200,
+              "running_length_mm": 1160,
+              "nose_width_mm": 292,
+              "waist_width_mm": 250,
+              "tail_width_mm": 292,
+              "sidecut_radius_m": "8.3-20.0-7.3-20.0-8.3",
+              "taper_mm": 0,
+              "stance_width_mm": 56
+            },
+            {
+              "length_mm": 142,
+              "effective_edge_mm": 1090,
+              "running_length_mm": 1050,
+              "nose_width_mm": 274,
+              "waist_width_mm": 234,
+              "tail_width_mm": 274,
+              "sidecut_radius_m": "7.1-18.0-6.1-18.0-7.1",
+              "taper_mm": 0,
+              "stance_width_mm": 48
+            },
+            {
+              "length_mm": 146,
+              "effective_edge_mm": 1130,
+              "running_length_mm": 1090,
+              "nose_width_mm": 279,
+              "waist_width_mm": 238,
+              "tail_width_mm": 279,
+              "sidecut_radius_m": "7.5-18.0-6.5-18.0-7.5",
+              "taper_mm": 0,
+              "stance_width_mm": 50
+            },
+            {
+              "length_mm": 147,
+              "effective_edge_mm": 1130,
+              "running_length_mm": 1090,
+              "nose_width_mm": 285,
+              "waist_width_mm": 244,
+              "tail_width_mm": 285,
+              "sidecut_radius_m": "7.6-18.0-6.6-18.0-7.6",
+              "taper_mm": 0,
+              "stance_width_mm": 52
+            },
+            {
+              "length_mm": 150,
+              "effective_edge_mm": 1160,
+              "running_length_mm": 1120,
+              "nose_width_mm": 287,
+              "waist_width_mm": 246,
+              "tail_width_mm": 287,
+              "sidecut_radius_m": "7.8-20.0-6.8-20.0-7.8",
+              "taper_mm": 0,
+              "stance_width_mm": 54
+            },
+            {
+              "length_mm": 152,
+              "effective_edge_mm": 1180,
+              "running_length_mm": 1140,
+              "nose_width_mm": 290,
+              "waist_width_mm": 248,
+              "tail_width_mm": 290,
+              "sidecut_radius_m": "8.0-20.0-7.0-20.0-8.0",
+              "taper_mm": 0,
+              "stance_width_mm": 55
+            },
+            {
+              "length_mm": 154,
+              "effective_edge_mm": 1200,
+              "running_length_mm": 1160,
+              "nose_width_mm": 292,
+              "waist_width_mm": 250,
+              "tail_width_mm": 292,
+              "sidecut_radius_m": "8.3-20.0-7.3-20.0-8.3",
+              "taper_mm": 0,
+              "stance_width_mm": 56
+            },
+            {
+              "length_mm": 115,
+              "effective_edge_mm": 830,
+              "running_length_mm": 790,
+              "nose_width_mm": 242,
+              "waist_width_mm": 210,
+              "tail_width_mm": 242,
+              "sidecut_radius_m": "5.3-5.0-5.3",
+              "taper_mm": 0,
+              "stance_width_mm": 40
+            },
+            {
+              "length_mm": 125,
+              "effective_edge_mm": 930,
+              "running_length_mm": 890,
+              "nose_width_mm": 253,
+              "waist_width_mm": 220,
+              "tail_width_mm": 253,
+              "sidecut_radius_m": "6.5-6.1-6.5",
+              "taper_mm": 0,
+              "stance_width_mm": 42
+            },
+            {
+              "length_mm": 132,
+              "effective_edge_mm": 1010,
+              "running_length_mm": 970,
+              "nose_width_mm": 261.5,
+              "waist_width_mm": 226,
+              "tail_width_mm": 261.5,
+              "sidecut_radius_m": "7.1-6.7-7.1",
+              "taper_mm": 0,
+              "stance_width_mm": 46
+            },
+            {
+              "length_mm": 136,
+              "effective_edge_mm": 1050,
+              "running_length_mm": 1010,
+              "nose_width_mm": 264,
+              "waist_width_mm": 228,
+              "tail_width_mm": 264,
+              "sidecut_radius_m": "7.6-7.2-7.6",
+              "taper_mm": 0,
+              "stance_width_mm": 46
+            },
+            {
+              "effective_edge_mm": "(mm)",
+              "running_length_mm": "(mm)",
+              "nose_width_mm": "(mm)",
+              "waist_width_mm": "(mm)",
+              "tail_width_mm": "(mm)",
+              "sidecut_radius_m": "(m)",
+              "taper_mm": "(mm)",
+              "stance_width_mm": "(cm)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "24-25 BC ROCKER",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 154,
+              "effective_edge_mm": 1140,
+              "running_length_mm": 930,
+              "nose_width_mm": 303,
+              "waist_width_mm": 254,
+              "tail_width_mm": 288,
+              "sidecut_radius_m": "8.0-7.1",
+              "taper_mm": 15,
+              "stance_width_mm": 54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "24-25 ICECAT",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 139,
+              "effective_edge_mm": 1010,
+              "running_length_mm": 860,
+              "nose_width_mm": 289,
+              "waist_width_mm": 242,
+              "tail_width_mm": 272,
+              "sidecut_radius_m": "6.4-5.8",
+              "taper_mm": 17,
+              "stance_width_mm": 46
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "24-25 DOGWALK",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 154,
+              "effective_edge_mm": 1040,
+              "running_length_mm": 930,
+              "nose_width_mm": 312,
+              "waist_width_mm": 261,
+              "tail_width_mm": 272,
+              "sidecut_radius_m": "11.0-6.5",
+              "taper_mm": 40,
+              "stance_width_mm": 52
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "24-25 C-KENTIAL",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 156,
+              "effective_edge_mm": 1150,
+              "running_length_mm": 990,
+              "nose_width_mm": 310,
+              "waist_width_mm": 260,
+              "tail_width_mm": 290,
+              "sidecut_radius_m": "8.5-7.5",
+              "taper_mm": 20,
+              "stance_width_mm": 54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "24-25 MOUNTAINFOX",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 144,
+              "effective_edge_mm": 1100,
+              "running_length_mm": 990,
+              "nose_width_mm": 288,
+              "waist_width_mm": 242,
+              "tail_width_mm": 280,
+              "sidecut_radius_m": "7.3-6.3",
+              "taper_mm": 8,
+              "stance_width_mm": 46
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "24-25 KJ",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 152,
+              "effective_edge_mm": 1180,
+              "running_length_mm": 1140,
+              "nose_width_mm": 286,
+              "waist_width_mm": 247,
+              "tail_width_mm": 286,
+              "sidecut_radius_m": "8.4-8.0-8.4",
+              "taper_mm": 0,
+              "stance_width_mm": 54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "24-25 KAILA",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 152,
+              "effective_edge_mm": 1180,
+              "running_length_mm": 1140,
+              "nose_width_mm": 289,
+              "waist_width_mm": 246,
+              "tail_width_mm": 289,
+              "sidecut_radius_m": "10.7-6.8-10.7",
+              "taper_mm": 0,
+              "stance_width_mm": "50/54"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "24-25 LIVER TOUR",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 141,
+              "effective_edge_mm": 1050,
+              "running_length_mm": 1010,
+              "nose_width_mm": 272,
+              "waist_width_mm": 234,
+              "tail_width_mm": 272,
+              "sidecut_radius_m": "6.5-6.9-6.5",
+              "taper_mm": 0,
+              "stance_width_mm": 44
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "24-25 ARTISTE",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 138,
+              "effective_edge_mm": 1050,
+              "running_length_mm": 1010,
+              "nose_width_mm": 268,
+              "waist_width_mm": 230,
+              "tail_width_mm": 268,
+              "sidecut_radius_m": "7.5-7.3-7.1-6.8-7.1-7.3-7.5",
+              "taper_mm": 0,
+              "stance_width_mm": "46/50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "24-25 DESIRE RS",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 147,
+              "effective_edge_mm": 1130,
+              "running_length_mm": 1090,
+              "nose_width_mm": 285,
+              "waist_width_mm": 244,
+              "tail_width_mm": 285,
+              "sidecut_radius_m": "7.6-18.0-6.6-18.0-7.6",
+              "taper_mm": 0,
+              "stance_width_mm": 52
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "24-25 DESIRE",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 138,
+              "effective_edge_mm": 1050,
+              "running_length_mm": 1010,
+              "nose_width_mm": 270,
+              "waist_width_mm": 230,
+              "tail_width_mm": 270,
+              "sidecut_radius_m": "6.7-16.0-5.7-16.0-6.7",
+              "taper_mm": 0,
+              "stance_width_mm": 46
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "24-25 DESIRE W",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 138,
+              "effective_edge_mm": 1050,
+              "running_length_mm": 1010,
+              "nose_width_mm": 270,
+              "waist_width_mm": 230,
+              "tail_width_mm": 270,
+              "sidecut_radius_m": "6.7-16.0-5.7-16.0-6.7",
+              "taper_mm": 0,
+              "stance_width_mm": 46
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "24-25 DX4",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 138,
+              "effective_edge_mm": 1050,
+              "running_length_mm": 1010,
+              "nose_width_mm": 270,
+              "waist_width_mm": 230,
+              "tail_width_mm": 270,
+              "sidecut_radius_m": "6.7-16.0-5.7-16.0-6.7",
+              "taper_mm": 0,
+              "stance_width_mm": 46
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "24-25 D4",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 138,
+              "effective_edge_mm": 1050,
+              "running_length_mm": 1010,
+              "nose_width_mm": 270,
+              "waist_width_mm": 230,
+              "tail_width_mm": 270,
+              "sidecut_radius_m": "6.7-16.0-5.7-16.0-6.7",
+              "taper_mm": 0,
+              "stance_width_mm": 46
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "24-25 KD",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 105,
+              "effective_edge_mm": 750,
+              "running_length_mm": 710,
+              "nose_width_mm": 230,
+              "waist_width_mm": 200,
+              "tail_width_mm": 230,
+              "sidecut_radius_m": "4.6-4.3-4.6",
+              "taper_mm": 0,
+              "stance_width_mm": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Japow",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 154,
+              "effective_edge_mm": 1190,
+              "sidecut_radius_m": 8.7,
+              "waist_width_mm": 256,
+              "nose_width_mm": 310,
+              "tail_width_mm": 285,
+              "taper_mm": 25,
+              "setback_mm": 0,
+              "weight_kg": 2780
+            },
+            {
+              "length_mm": 159,
+              "effective_edge_mm": 1235,
+              "sidecut_radius_m": 9.0,
+              "waist_width_mm": 262,
+              "nose_width_mm": 317,
+              "tail_width_mm": 292,
+              "taper_mm": 25,
+              "setback_mm": 0,
+              "weight_kg": 3010
+            },
+            {
+              "length_mm": 164,
+              "effective_edge_mm": 1255,
+              "sidecut_radius_m": 9.3,
+              "waist_width_mm": 266,
+              "nose_width_mm": 322,
+              "tail_width_mm": 297,
+              "taper_mm": 25,
+              "setback_mm": 0,
+              "weight_kg": 3320
+            },
+            {
+              "length_mm": 169,
+              "effective_edge_mm": 1285,
+              "sidecut_radius_m": 9.6,
+              "waist_width_mm": 270,
+              "nose_width_mm": 327,
+              "tail_width_mm": 302,
+              "taper_mm": 25,
+              "setback_mm": 0,
+              "weight_kg": 3420
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Singular",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 144,
+              "weight_kg": 2.25
+            },
+            {
+              "length_mm": 148,
+              "weight_kg": 2.4
+            },
+            {
+              "length_mm": 151,
+              "weight_kg": 2.55
+            },
+            {
+              "length_mm": 155,
+              "weight_kg": 2.7
+            },
+            {
+              "length_mm": 158,
+              "weight_kg": 2.9
+            },
+            {
+              "length_mm": 162,
+              "weight_kg": 3.0
+            },
+            {
+              "length_mm": 166,
+              "weight_kg": 3.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Singular Twin",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 143,
+              "weight_kg": 2.25
+            },
+            {
+              "length_mm": 148,
+              "weight_kg": 2.4
+            },
+            {
+              "length_mm": 151,
+              "weight_kg": 2.55
+            },
+            {
+              "length_mm": 154,
+              "weight_kg": 2.6
+            },
+            {
+              "length_mm": 158,
+              "weight_kg": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Souly Grail",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 153,
+              "weight_kg": 2.75
+            },
+            {
+              "length_mm": 157,
+              "weight_kg": 2.95
+            },
+            {
+              "length_mm": 162,
+              "weight_kg": 3.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Surfari",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 157,
+              "weight_kg": 2.95
+            },
+            {
+              "length_mm": 161,
+              "weight_kg": 3.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UNW8",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 156,
+              "weight_kg": 2.9
+            },
+            {
+              "length_mm": 159,
+              "weight_kg": 3.0
+            },
+            {
+              "length_mm": 163,
+              "weight_kg": 3.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PENTAQUARK",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 158,
+              "weight_kg": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": 20,
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 155,
+              "weight_kg": 2.65
+            },
+            {
+              "length_mm": 160,
+              "weight_kg": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wasabi",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 142,
+              "weight_kg": 2.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SPRAY TRAY",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 147,
+              "weight_kg": 2.8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DADA",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 154,
+              "weight_kg": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ALOHA VIBES",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 154,
+              "weight_kg": 2.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Psychonaut",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 157,
+              "weight_kg": 2.85
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KILL SWITCH",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 158,
+              "weight_kg": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MORNING GLORY",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 160,
+              "weight_kg": 3.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BIG KAHUNA",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 161,
+              "weight_kg": 3.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SNOMMELIER",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 166,
+              "weight_kg": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SOULMATE",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 149,
+              "weight_kg": 2.4
+            },
+            {
+              "length_mm": 153,
+              "weight_kg": 2.55
+            },
+            {
+              "length_mm": 157,
+              "weight_kg": 2.9
+            },
+            {
+              "length_mm": 161,
+              "weight_kg": 3.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MEMORY STICK",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 148,
+              "weight_kg": 2.5
+            },
+            {
+              "length_mm": 153,
+              "weight_kg": 2.55
+            },
+            {
+              "length_mm": 156,
+              "weight_kg": 2.65
+            },
+            {
+              "length_mm": 159,
+              "weight_kg": 2.85
+            },
+            {
+              "length_mm": 163,
+              "weight_kg": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CAB DRIVER",
+      "versions": [
+        {
+          "year": "24-25",
+          "sizes": [
+            {
+              "length_mm": 144,
+              "weight_kg": 2.5
+            },
+            {
+              "length_mm": 149,
+              "weight_kg": 2.55
+            },
+            {
+              "length_mm": 152,
+              "weight_kg": 2.65
+            },
+            {
+              "length_mm": 155,
+              "weight_kg": 2.85
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
